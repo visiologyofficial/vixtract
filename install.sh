@@ -16,10 +16,10 @@ sudo chgrp -R etl /var/etl
 sudo chgrp -R etl /media/etl
 
 ### NodeJS
-sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo curl -sL https://deb.nodesource.com/setup_12.x
 sudo apt update && sudo apt install -y nodejs
 
-### JupyterHub && JuperLab
+### JupyterHub && JupyterLab
 sudo /opt/conda/bin/conda create -y --prefix=/opt/jupyterhub/ wheel jupyterhub jupyterlab ipywidgets sqlalchemy psycopg2
 sudo mkdir -p /opt/jupyterhub/etc/jupyterhub/
 sudo cp jupyterhub/jupyterhub_config.py /opt/jupyterhub/etc/jupyterhub/
