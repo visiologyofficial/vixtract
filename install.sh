@@ -16,7 +16,7 @@ sudo chgrp -R etl /var/etl
 sudo chgrp -R etl /media/etl
 
 ### NodeJS
-sudo curl -sL https://deb.nodesource.com/setup_12.x
+sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt update && sudo apt install -y nodejs
 
 ### JupyterHub && JupyterLab
