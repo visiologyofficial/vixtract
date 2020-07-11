@@ -7,20 +7,6 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-echo "Please Enter Hostname/Domain Details"
-bash ./conf.sh -h
-
-if [ ${DOMAIN} != "" ];
-	then
-	bash ./conf.sh -ssl
-fi
-
-echo "Please Enter new account details"
-bash ./conf.sh -u
-
-echo "Please Enter PostgreSQL password"
-read -s -p "Enter password for postgress user : " POSTGRES_PASSWORD
-
 apt update && apt install -y wget curl software-properties-common python3.6 python3-pip bzip2 ca-certificates git libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 
 ### Conda
@@ -106,3 +92,17 @@ service postgresql restart
 sudo -u postgres bash -c "psql -c \"CREATE USER ${PSQL_USER} WITH PASSWORD '${POSTGRES_PASSWORD}';\""
 sudo -u postgres bash -c "psql -c \"CREATE DATABASE ${PSQL_DB};\""
 sudo -u postgres bash -c "psql -c \"GRANT ALL PRIVILEGES ON DATABASE ${PSQL_DB} TO ${PSQL_USER};\""
+
+echo "Please Enter Hostname/Domain Details"
+bash ./conf.sh -h
+
+if [ ${DOMAIN} != "" ];
+	then
+	bash ./conf.sh -ssl
+fi
+
+echo "Please Enter new account details"
+bash ./conf.sh -u
+
+echo "Please Enter PostgreSQL password"
+read -s -p "Enter password for postgress user : " POSTGRES_PASSWORD
