@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-### Source file
 source .env
 
 if [ "$EUID" -ne 0 ]
@@ -8,56 +7,80 @@ if [ "$EUID" -ne 0 ]
   exit
 fi
 
-### Groups && Dirs
-sudo groupadd -f etl
-sudo mkdir /var/etl
-sudo mkdir /media/etl
-sudo chgrp -R etl /var/etl
-sudo chgrp -R etl /media/etl
+echo "Please Enter Hostname/Domain Details"
+bash ./conf.sh -h
 
-### NodeJS
-sudo curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
-sudo apt update && sudo apt install -y nodejs
-
-### JupyterHub && JupyterLab
-sudo /opt/conda/bin/conda create -y --prefix=/opt/jupyterhub/ wheel jupyterhub jupyterlab ipywidgets sqlalchemy psycopg2
-sudo mkdir -p /opt/jupyterhub/etc/jupyterhub/
-sudo cp jupyterhub/jupyterhub_config.py /opt/jupyterhub/etc/jupyterhub/
-sudo cp systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
-sudo systemctl daemon-reload
-sudo systemctl enable jupyterhub.service
-sudo systemctl start jupyterhub.service
-
-### Papermill
-sudo pip3 install papermill
-
-### Conda ENV Dev
-sudo /opt/conda/bin/conda create -y --prefix=/opt/conda/envs/dev python=3.6 petl ipykernel wheel requests pandas sqlalchemy psycopg2 openpyxl
-sudo ${CONDA_DIR}/envs/dev/bin/python -m ipykernel install --prefix=/usr/local --name 'dev' --display-name "Python (Dev Env)"
-
-### Conda ENV Prod
-sudo /opt/conda/bin/conda create -y --prefix=/opt/conda/envs/prod python=3.6 petl ipykernel wheel requests pandas sqlalchemy psycopg2 openpyxl
-sudo ${CONDA_DIR}/envs/prod/bin/python -m ipykernel install --prefix=/usr/local --name 'prod' --display-name "Python (Prod Env)"
-
-### Cronicle
-sudo curl -s https://raw.githubusercontent.com/jhuckaby/Cronicle/master/bin/install.js | node
-sudo /opt/cronicle/bin/control.sh setup
-sudo cp systemd/cronicle.service /etc/systemd/system/cronicle.service
-sudo systemctl daemon-reload
-sudo systemctl enable cronicle.service
-sudo systemctl start cronicle.service
-
-### Nginx && CertBot
-sudo add-apt-repository -y universe && sudo add-apt-repository -y ppa:certbot/certbot
-sudo apt update && sudo apt install -y nginx certbot python3-certbot-nginx
-
-sudo rm /etc/nginx/sites-enabled/default
-sudo cp nginx/default.conf /etc/nginx/conf.d/default.conf
-sudo service nginx restart
-
-### SSL
 if [ ${DOMAIN} != "" ];
 	then
+	bash ./conf.sh -ssl
+fi
+
+echo "Please Enter new account details"
+bash ./conf.sh -u
+
+echo "Please Enter PostgreSQL password"
+read -s -p "Enter password for postgress user : " POSTGRES_PASSWORD
+
+apt update && apt install -y wget curl software-properties-common python3.6 python3-pip bzip2 ca-certificates git libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+
+### Conda
+wget -nc https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh -O ~/anaconda.sh
+bash ~/anaconda.sh -b -p ${CONDA_DIR}
+ln -s ${CONDA_DIR}/etc/profile.d/conda.sh /etc/profile.d/conda.sh
+/opt/conda/bin/conda init bash
+source ~/.bashrc
+source /etc/profile.d/conda.sh
+
+### Groups && Dirs
+groupadd -f etl
+mkdir /var/etl
+mkdir /media/etl
+chgrp -R etl /var/etl
+chgrp -R etl /media/etl
+
+### NodeJS
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+apt update && apt install -y nodejs
+
+### JupyterHub && JupyterLab
+/opt/conda/bin/conda create -y --prefix=/opt/jupyterhub/ wheel jupyterhub jupyterlab ipywidgets sqlalchemy psycopg2
+mkdir -p /opt/jupyterhub/etc/jupyterhub/
+cp jupyterhub/jupyterhub_config.py /opt/jupyterhub/etc/jupyterhub/
+cp systemd/jupyterhub.service /etc/systemd/system/jupyterhub.service
+systemctl daemon-reload
+systemctl enable jupyterhub.service
+systemctl start jupyterhub.service
+
+### Papermill
+pip3 install papermill
+
+### Conda ENV Dev
+/opt/conda/bin/conda create -y --prefix=/opt/conda/envs/dev python=3.6 petl ipykernel wheel requests pandas sqlalchemy psycopg2 openpyxl
+${CONDA_DIR}/envs/dev/bin/python -m ipykernel install --prefix=/usr/local --name 'dev' --display-name "Python (Dev Env)"
+
+### Conda ENV Prod
+/opt/conda/bin/conda create -y --prefix=/opt/conda/envs/prod python=3.6 petl ipykernel wheel requests pandas sqlalchemy psycopg2 openpyxl
+${CONDA_DIR}/envs/prod/bin/python -m ipykernel install --prefix=/usr/local --name 'prod' --display-name "Python (Prod Env)"
+
+### Cronicle
+curl -s https://raw.githubusercontent.com/jhuckaby/Cronicle/master/bin/install.js | node
+/opt/cronicle/bin/control.sh setup
+cp systemd/cronicle.service /etc/systemd/system/cronicle.service
+systemctl daemon-reload
+systemctl enable cronicle.service
+systemctl start cronicle.service
+
+### Nginx && CertBot
+add-apt-repository -y universe && add-apt-repository -y ppa:certbot/certbot
+apt update && apt install -y nginx certbot python3-certbot-nginx
+
+rm /etc/nginx/sites-enabled/default
+cp nginx/default.conf /etc/nginx/conf.d/default.conf
+service nginx restart
+
+### SSL
+if [ ${SSL} != "0" ];
+then
 	certbot --nginx -w /var/www/html \
 		--no-eff-email \
 		--redirect \
@@ -68,18 +91,18 @@ if [ ${DOMAIN} != "" ];
 fi
 
 ### S3FS && Rsync
-sudo apt install -y s3fs rsync
-sudo cp s3fs.sh /etc/cron.daily/s3fs
-sudo chmod 700 /etc/cron.daily/s3fs
-sudo echo ${ACCESS_KEY_ID}:${SECRET_ACCESS_KEY} > /etc/passwd-s3fs
-sudo chmod 600 /etc/passwd-s3fs
-sudo ./s3fs.sh
+apt install -y s3fs rsync
+cp s3fs.sh /etc/cron.daily/s3fs
+chmod 700 /etc/cron.daily/s3fs
+echo ${ACCESS_KEY_ID}:${SECRET_ACCESS_KEY} > /etc/passwd-s3fs
+chmod 600 /etc/passwd-s3fs
+./s3fs.sh
 
 ### PostgreSQL
-sudo apt install -y postgresql postgresql-contrib
-sudo cp postgresql/postgresql.conf /etc/postgresql/10/main/
-sudo cp postgresql/pg_hba.conf /etc/postgresql/10/main/
-sudo service postgresql restart
-sudo -u postgres bash -c "psql -c \"CREATE USER ${PSQL_USER} WITH PASSWORD '${PSQL_PASS}';\""
+apt install -y postgresql postgresql-contrib
+cp postgresql/postgresql.conf /etc/postgresql/10/main/
+cp postgresql/pg_hba.conf /etc/postgresql/10/main/
+service postgresql restart
+sudo -u postgres bash -c "psql -c \"CREATE USER ${PSQL_USER} WITH PASSWORD '${POSTGRES_PASSWORD}';\""
 sudo -u postgres bash -c "psql -c \"CREATE DATABASE ${PSQL_DB};\""
 sudo -u postgres bash -c "psql -c \"GRANT ALL PRIVILEGES ON DATABASE ${PSQL_DB} TO ${PSQL_USER};\""

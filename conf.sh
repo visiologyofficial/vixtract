@@ -29,12 +29,10 @@ case "$ACTION_NAME" in
 		hostn=$(cat /etc/hostname)
 
 		echo "Existing hostname is $hostn"
+		read -p "Enter new hostname: " newhost
 
-		echo "Enter new hostname: "
-		read newhost
-
-		sudo sed -i "s/$hostn/$newhost/g" /etc/hosts
-		sudo sed -i "s/$hostn/$newhost/g" /etc/hostname
+		sed -i "s/$hostn/$newhost/g" /etc/hosts
+		sed -i "s/$hostn/$newhost/g" /etc/hostname
 
 		declare -A HOST_KEYS
 		HOST_KEYS=([DOMAIN]=$newhost)
@@ -47,11 +45,24 @@ case "$ACTION_NAME" in
 		sed -i "s/server_name.*/server_name $newhost/g" /etc/nginx/conf.d/default.conf
 		sed -i "s/server_name.*/server_name $newhost/g" nginx/default.conf
 
+		### Nginx
+		service nginx restart
+
 		echo "Your new hostname is $newhost"
+		echo "Node JS Hostname"
+		node -e 'console.log(require("os").hostname());'
+
+		### Cronicle
+		service cronicle stop
+		/opt/cronicle/bin/storage-cli.js get global/servers/0 > SERVERS.JSON
+		sed -i "s/hostname.*/hostname\": \"${newhost}\",/g" SERVERS.JSON
+		cat SERVERS.JSON | /opt/cronicle/bin/storage-cli.js put global/servers/0
+		service cronicle start
+		rm SERVERS.JSON
 
 		#Press a key to reboot
-		read -s -n 1 -p "Press any key to reboot"
-		#sudo reboot
+		echo "You need to reboot for changes take effect"
+		#reboot
 		;;
 	-s|--s3fs)
 		read -p "Enter ACCESS_KEY_ID : " ACCESS_KEY_ID
@@ -67,10 +78,57 @@ case "$ACTION_NAME" in
 			sed -i "/^$key/ { s%=.*%="$vals"%; }" .env
 		done
 		;;
+	-ssl|--cert)
+		read -p "Enable SSL ? Type [Y/n]" -n 1 -r SSL_REPLY
+		if [[ $SSL_REPLY =~ ^[Yy]$ ]]
+		then
+		    SSL_EN=1
+		else
+			SSL_EN=0
+		fi
+		echo
+		### SSL array
+		declare -A SSL_KEYS
+		SSL_KEYS=([SSL]=$SSL_EN)
+
+		for key in "${!SSL_KEYS[@]}"; do
+			vals="${SSL_KEYS[$key]}"
+			sed -i "/^$key/ { s%=.*%="$vals"%; }" .env
+		done
+
+		### Nginx
+		if [ ${SSL} != "1" ];
+		then
+			cp nginx/default.conf /etc/nginx/conf.d/default.conf
+			service nginx restart
+		fi
+		;;
+	-p|--psql)
+		read -s -p "Enter password for postgress user : " PSQL_PASSWORD
+
+		### SSL array
+		declare -A PSQL_KEYS
+		PSQL_KEYS=([PSQL_PASS]=$PSQL_PASSWORD)
+
+		for key in "${!PSQL_KEYS[@]}"; do
+			vals="${PSQL_KEYS[$key]}"
+			sed -i "/^$key/ { s%=.*%="$vals"%; }" .env
+		done
+
+		### Update postgres user and password
+		sudo -u postgres bash -c "psql -c \"CREATE USER ${PSQL_USER} WITH PASSWORD '${PSQL_PASS}';\""
+		sudo -u postgres bash -c "psql -c \"CREATE DATABASE ${PSQL_DB};\""
+		sudo -u postgres bash -c "psql -c \"GRANT ALL PRIVILEGES ON DATABASE ${PSQL_DB} TO ${PSQL_USER};\""
+		sudo -u postgres bash -c "psql -c \"ALTER USER ${PSQL_USER} WITH PASSWORD '${PSQL_PASS}';\""
+
+		;;
 	*)
 		echo "Select current action"
 		echo "-h Change hostname"
 		echo "-s Change S3FS credentials"
 		echo "-u Add user"
+		echo "-p Add PSQL PASS"
+		echo "-ssl enable or disable SSL"
+
 		;;
 esac
