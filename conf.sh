@@ -49,8 +49,6 @@ case "$ACTION_NAME" in
 		service nginx restart
 
 		echo "Your new hostname is $newhost"
-		echo "Node JS Hostname"
-		node -e 'console.log(require("os").hostname());'
 
 		### Cronicle
 		service cronicle stop
@@ -61,7 +59,7 @@ case "$ACTION_NAME" in
 		rm SERVERS.JSON
 
 		#Press a key to reboot
-		echo "You need to reboot for changes take effect"
+		echo "WARNING: You need to reboot for changes to take effect"
 		#reboot
 		;;
 	-s|--s3fs)
@@ -97,14 +95,14 @@ case "$ACTION_NAME" in
 		done
 
 		### Nginx
-		if [ ${SSL} != "1" ];
+		if [ ${SSL_EN} != "1" ];
 		then
 			cp nginx/default.conf /etc/nginx/conf.d/default.conf
 			service nginx restart
 		fi
 
     ### SSL
-    if [ ${SSL} != "0" ];
+    if [ ${SSL_EN} != "0" ];
     then
     	certbot --nginx -w /var/www/html \
     		--no-eff-email \
@@ -117,7 +115,7 @@ case "$ACTION_NAME" in
 
 		;;
 	-p|--psql)
-		read -s -p "Enter password for postgress user : " PSQL_PASSWORD
+		read -s -p "Enter password for default PostgreSQL user ('etl'): " PSQL_PASSWORD
 
 		### SSL array
 		declare -A PSQL_KEYS
@@ -137,11 +135,10 @@ case "$ACTION_NAME" in
 		;;
 	*)
 		echo "Select current action"
-		echo "-h Change hostname"
-		echo "-s Change S3FS credentials"
-		echo "-u Add user"
-		echo "-p Add PSQL PASS"
-		echo "-ssl enable or disable SSL"
-
+		echo "-h Configure hostname/domain"
+		echo "-s Configure S3FS credentials (S3 bucket mount)"
+		echo "-u Add user account"
+		echo "-p Configure PostgreSQL password for default user ('etl')"
+		echo "-ssl Enable or disable HTTPS"
 		;;
 esac
