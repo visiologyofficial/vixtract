@@ -64,18 +64,6 @@ rm /etc/nginx/sites-enabled/default
 cp nginx/default.conf /etc/nginx/conf.d/default.conf
 service nginx restart
 
-### SSL
-if [ ${SSL} != "0" ];
-then
-	certbot --nginx -w /var/www/html \
-		--no-eff-email \
-		--redirect \
-		--email ${EMAIL} \
-		-d ${DOMAIN} \
-		--agree-tos \
-		--force-renewal
-fi
-
 ### S3FS && Rsync
 apt install -y s3fs rsync
 cp s3fs.sh /etc/cron.daily/s3fs

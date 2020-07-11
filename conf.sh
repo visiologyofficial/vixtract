@@ -102,6 +102,19 @@ case "$ACTION_NAME" in
 			cp nginx/default.conf /etc/nginx/conf.d/default.conf
 			service nginx restart
 		fi
+
+    ### SSL
+    if [ ${SSL} != "0" ];
+    then
+    	certbot --nginx -w /var/www/html \
+    		--no-eff-email \
+    		--redirect \
+    		--email ${EMAIL} \
+    		-d ${DOMAIN} \
+    		--agree-tos \
+    		--force-renewal
+    fi
+
 		;;
 	-p|--psql)
 		read -s -p "Enter password for postgress user : " PSQL_PASSWORD
