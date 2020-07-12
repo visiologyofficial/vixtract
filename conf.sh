@@ -31,43 +31,56 @@ case "$ACTION_NAME" in
 		echo "Existing hostname is $hostn"
 		read -p "Enter new hostname: " newhost
 
-		sed -i "s/$hostn/$newhost/g" /etc/hosts
-		sed -i "s/$hostn/$newhost/g" /etc/hostname
+    if [ -z "$newhost" ]
+    then
+      service cronicle stop
 
-		declare -A HOST_KEYS
-		HOST_KEYS=([DOMAIN]=$newhost)
+      sed -i "s/\"server_comm_use_hostnames\".*/\"server_comm_use_hostnames\": false,/g" /opt/cronicle/conf/config.json
+      sed -i "s/\"web_socket_use_hostnames\".*/\"web_socket_use_hostnames\": false,/g" /opt/cronicle/conf/config.json
 
-		for key in "${!HOST_KEYS[@]}"; do
-			vals="${HOST_KEYS[$key]}"
-			sed -i "/^$key/ { s%=.*%="$vals"%; }" .env
-		done
+  		service cronicle start
+    else
+      sed -i "s/$hostn/$newhost/g" /etc/hosts
+  		sed -i "s/$hostn/$newhost/g" /etc/hostname
 
-		sed -i "s/server_name.*/server_name $newhost/g" /etc/nginx/conf.d/default.conf
-		sed -i "s/server_name.*/server_name $newhost/g" nginx/default.conf
+  		declare -A HOST_KEYS
+  		HOST_KEYS=([DOMAIN]=$newhost)
 
-		### Nginx
-		service nginx restart
+  		for key in "${!HOST_KEYS[@]}"; do
+  			vals="${HOST_KEYS[$key]}"
+  			sed -i "/^$key/ { s%=.*%="$vals"%; }" .env
+  		done
 
-		echo "Your new hostname is $newhost"
+  		sed -i "s/server_name.*/server_name $newhost/g" /etc/nginx/conf.d/default.conf
+  		sed -i "s/server_name.*/server_name $newhost/g" nginx/default.conf
 
-		### Cronicle
-		service cronicle stop
+  		### Nginx
+  		service nginx restart
 
-    /opt/cronicle/bin/storage-cli.js get global/servers/0 > SERVERS.JSON
-		sed -i "s/hostname.*/hostname\": \"${newhost}\",/g" SERVERS.JSON
-		cat SERVERS.JSON | /opt/cronicle/bin/storage-cli.js put global/servers/0
+  		echo "Your new hostname is $newhost"
 
-    /opt/cronicle/bin/storage-cli.js get global/server_groups/0 > SERVERGROUPS.JSON
-    sed -i "s/\"regexp\": \"\^.*/\"regexp\": \"^(${newhost})\$\"/g" SERVERGROUPS.JSON
-		cat SERVERGROUPS.JSON | /opt/cronicle/bin/storage-cli.js put global/server_groups/0
+  		### Cronicle
+  		service cronicle stop
 
-		service cronicle start
-		rm SERVERS.JSON
-    rm SERVERGROUPS.JSON
+      /opt/cronicle/bin/storage-cli.js get global/servers/0 > SERVERS.JSON
+  		sed -i "s/hostname.*/hostname\": \"${newhost}\",/g" SERVERS.JSON
+  		cat SERVERS.JSON | /opt/cronicle/bin/storage-cli.js put global/servers/0
 
-		#Press a key to reboot
-		echo "WARNING: You need to reboot for changes to take effect"
-		#reboot
+      /opt/cronicle/bin/storage-cli.js get global/server_groups/0 > SERVERGROUPS.JSON
+      sed -i "s/\"regexp\": \"\^.*/\"regexp\": \"^(${newhost})\$\",/g" SERVERGROUPS.JSON
+  		cat SERVERGROUPS.JSON | /opt/cronicle/bin/storage-cli.js put global/server_groups/0
+
+      sed -i "s/\"server_comm_use_hostnames\".*/\"server_comm_use_hostnames\": true,/g" /opt/cronicle/conf/config.json
+      sed -i "s/\"web_socket_use_hostnames\".*/\"web_socket_use_hostnames\": true,/g" /opt/cronicle/conf/config.json
+
+  		service cronicle start
+  		rm SERVERS.JSON
+      rm SERVERGROUPS.JSON
+
+  		#Press a key to reboot
+  		echo "WARNING: You need to reboot for changes to take effect"
+  		#reboot
+    fi
 		;;
 	-s|--s3fs)
 		read -p "Enter ACCESS_KEY_ID : " ACCESS_KEY_ID
