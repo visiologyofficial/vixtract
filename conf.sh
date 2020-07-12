@@ -52,11 +52,18 @@ case "$ACTION_NAME" in
 
 		### Cronicle
 		service cronicle stop
-		/opt/cronicle/bin/storage-cli.js get global/servers/0 > SERVERS.JSON
+
+    /opt/cronicle/bin/storage-cli.js get global/servers/0 > SERVERS.JSON
 		sed -i "s/hostname.*/hostname\": \"${newhost}\",/g" SERVERS.JSON
 		cat SERVERS.JSON | /opt/cronicle/bin/storage-cli.js put global/servers/0
+
+    /opt/cronicle/bin/storage-cli.js get global/server_groups/0 > SERVERGROUPS.JSON
+    sed -i "s/\"regexp\": \"\^.*/\"regexp\": \"^(${newhost})\$\"/g" SERVERGROUPS.JSON
+		cat SERVERGROUPS.JSON | /opt/cronicle/bin/storage-cli.js put global/server_groups/0
+
 		service cronicle start
 		rm SERVERS.JSON
+    rm SERVERGROUPS.JSON
 
 		#Press a key to reboot
 		echo "WARNING: You need to reboot for changes to take effect"
