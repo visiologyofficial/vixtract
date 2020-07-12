@@ -30,9 +30,9 @@ ViXtract – это сборка на основе популярных откр
 2. Пройдите вводные уроки по ViXtract в формате Jupyter Notebook - папка 'tutorials'
 2. Ознакомьтесь со вводным курсом по Python, например "Python за 15 минут" https://www.youtube.com/watch?v=h8ajN8_XiBk
 5. Возьмите свою реальную задачу и попробуйте ее реализовать. При этом вам будут полезны:
- 1. Примеры реализации коннекторов - папка 'examples'
- 2. Чат сообщества ViXtract - https://t.me/vixtract_ru
- 3. Документация PETL - https://petl.readthedocs.io/en/stable/
+   1. Примеры реализации коннекторов - папка 'examples'
+   2. Чат сообщества ViXtract - https://t.me/vixtract_ru
+   3. Документация PETL - https://petl.readthedocs.io/en/stable/
 
 ## Настройка ViXtract
 
