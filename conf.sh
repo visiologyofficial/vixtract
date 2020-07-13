@@ -29,6 +29,12 @@ case "$ACTION_NAME" in
 			[ $? -eq 0 ] && echo "User has been added to system!" || echo "Failed to add a user!"
 		fi
 		;;
+	-a|--admin)
+		read -s -p "Enter Cronicle admin password : " password
+		service cronicle stop
+		node /opt/cronicle/bin/storage-cli.js admin admin "$password"
+		service cronicle start
+		;;
 	-h|--hostname)
 		hostn=$(cat /etc/hostname)
 
@@ -169,6 +175,7 @@ case "$ACTION_NAME" in
 		echo "-h Configure hostname/domain"
 		echo "-s Configure S3FS credentials (S3 bucket mount)"
 		echo "-u Add user account"
+		echo "-a Configure Cronicle admin password"
 		echo "-p Configure PostgreSQL password for default user ('etl')"
 		echo "-ssl Enable or disable HTTPS"
 		;;

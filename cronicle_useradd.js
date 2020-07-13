@@ -153,7 +153,7 @@ var storage = new StandaloneStorage(config.Storage, function(err) {
 	user.salt = Tools.generateUniqueID( 64, user.username );
 	user.password = bcrypt.hashSync( user.password + user.salt );
 	//user.privileges = { admin: 1 };
-	user.privileges = { create_events: 1, edit_events: 1, delete_events: 1 };
+	user.privileges = { create_events: 1, edit_events: 1, delete_events: 1, run_events: 1, abort_events: 1 };
 
 	storage.put( 'users/' + username, user, function(err) {
 		if (err) throw err;

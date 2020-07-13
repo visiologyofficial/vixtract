@@ -94,5 +94,10 @@ fi
 echo "Adding first user account..."
 bash ./conf.sh -u
 
+echo "Configuring Cronicle access..."
+bash ./conf.sh -a
+
 echo "Configuring PostgresSQL access..."
 bash ./conf.sh -p
+
+echo "Installation finished. Please restart the server, otherwise hostname change might not be in effect and Cronicle might not start properly."
