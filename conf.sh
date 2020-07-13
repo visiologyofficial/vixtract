@@ -114,24 +114,31 @@ case "$ACTION_NAME" in
 			sed -i "/^$key/ { s%=.*%="$vals"%; }" .env
 		done
 
-		### Nginx
+		### HTTPS DISABLE
 		if [ ${SSL_EN} != "1" ];
 		then
 			cp nginx/default.conf /etc/nginx/conf.d/default.conf
 			service nginx restart
+			sed -i "s/\"https\": true,/\"https\": false,/g" /opt/cronicle/conf/config.json
+			service cronicle restart
 		fi
 
-    ### SSL
-    if [ ${SSL_EN} != "0" ];
-    then
-    	certbot --nginx -w /var/www/html \
-    		--no-eff-email \
-    		--redirect \
-    		--email ${EMAIL} \
-    		-d ${DOMAIN} \
-    		--agree-tos \
-    		--force-renewal
-    fi
+	    ### HTTPS ENABLE
+	    if [ ${SSL_EN} != "0" ];
+	    then
+	    	certbot --nginx -w /var/www/html \
+	    		--no-eff-email \
+	    		--redirect \
+	    		--email ${EMAIL} \
+	    		-d ${DOMAIN} \
+	    		--agree-tos \
+	    		--force-renewal
+
+	    	sed -i "s/https_cert_file.*/https_cert_file\": \"\/etc\/letsencrypt\/live\/${DOMAIN}\/fullchain.pem\",/g" /opt/cronicle/conf/config.json
+			sed -i "s/https_key_file.*/https_key_file\": \"\/etc\/letsencrypt\/live\/${DOMAIN}\/privkey.pem\",/g" /opt/cronicle/conf/config.json
+			sed -i "s/\"https\": false,/\"https\": true,/g" /opt/cronicle/conf/config.json
+			service cronicle restart
+	    fi
 
 		;;
 	-p|--psql)
