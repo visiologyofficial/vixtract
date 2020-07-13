@@ -6,6 +6,8 @@ ViXtract – это сборка на основе популярных откр
 
 Сайт проекта - https://www.vixtract.ru
 
+## Установка
+
 Для установки ViXtract используйте команду ниже (рекомендуется использовать Ubuntu 18.04 LTS):
 
 > sudo apt-get update && sudo apt-get install git -y && git clone https://github.com/visiologyofficial/vixtract && cd vixtract && sudo chmod +x *.sh && sudo ./install.sh
