@@ -22,7 +22,10 @@ case "$ACTION_NAME" in
 			pass=$(perl -e 'print crypt($ARGV[0], "password")' $password)
 			useradd -m -p "$pass" "$username"
 			usermod -aG etl "$username"
-			cp tutorials "/home/$username"
+			cp -r tutorials "/home/$username"
+			service cronicle stop
+			node /opt/cronicle/bin/cronicle_useradd.js $username $password
+			service cronicle start
 			[ $? -eq 0 ] && echo "User has been added to system!" || echo "Failed to add a user!"
 		fi
 		;;

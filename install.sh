@@ -55,6 +55,7 @@ cp systemd/cronicle.service /etc/systemd/system/cronicle.service
 systemctl daemon-reload
 systemctl enable cronicle.service
 systemctl start cronicle.service
+cp cronicle_useradd.js /opt/cronicle/bin/
 
 ### Nginx && CertBot
 add-apt-repository -y universe && add-apt-repository -y ppa:certbot/certbot
