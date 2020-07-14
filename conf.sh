@@ -23,6 +23,7 @@ case "$ACTION_NAME" in
 			useradd -m -p "$pass" "$username"
 			usermod -aG etl "$username"
 			cp -r tutorials "/home/$username"
+			sudo chown -R "$username" "/home/$username"
 			service cronicle stop
 			node /opt/cronicle/bin/cronicle_useradd.js $username $password
 			service cronicle start

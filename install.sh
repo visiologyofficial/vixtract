@@ -82,6 +82,10 @@ sudo -u postgres bash -c "psql -c \"CREATE USER ${PSQL_USER} WITH PASSWORD '${PO
 sudo -u postgres bash -c "psql -c \"CREATE DATABASE ${PSQL_DB};\""
 sudo -u postgres bash -c "psql -c \"GRANT ALL PRIVILEGES ON DATABASE ${PSQL_DB} TO ${PSQL_USER};\""
 
+sudo -u postgres bash -c "psql -c \"CREATE USER demo WITH PASSWORD 'demo';\""
+sudo -u postgres bash -c "psql -f tutorials/datasets/DEMO.SQL"
+sudo -u postgres bash -c "psql -c \"GRANT ALL PRIVILEGES ON DATABASE demo TO demo;\""
+
 echo "Configuring hostname/domain..."
 bash ./conf.sh -h
 
