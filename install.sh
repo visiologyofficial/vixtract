@@ -65,6 +65,8 @@ rm /etc/nginx/sites-enabled/default
 cp nginx/default.conf /etc/nginx/conf.d/default.conf
 service nginx restart
 
+cp -r html /var/www
+
 ### S3FS && Rsync
 apt install -y s3fs rsync
 cp s3fs.sh /etc/cron.daily/s3fs
