@@ -1,0 +1,4700 @@
+[
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Sisters -- Fiction,Courtship -- Fiction,Social classes -- Fiction,England -- Fiction,Domestic fiction,Young women -- Fiction,Love stories",
+      "title": "Pride and Prejudice",
+      "type": "Text",
+      "author": {
+        "birth": 1775,
+        "death": 1817,
+        "name": "Austen, Jane"
+      },
+      "publication": {
+        "day": 1,
+        "full": "June, 1998",
+        "month": 6,
+        "month name": "June",
+        "year": 1998
+      }
+    },
+    "metadata": {
+      "downloads": 36576,
+      "id": 1342,
+      "rank": 1,
+      "url": "https://www.gutenberg.org/ebooks/1342",
+      "formats": {
+        "total": 8,
+        "types": "text/plain,text/plain; charset=us-ascii,application/pdf,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.7,
+        "coleman liau index": 10.73,
+        "dale chall readability score": 5.7,
+        "difficult words": 9032,
+        "flesch kincaid grade": 7.9,
+        "flesch reading ease": 70.13,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 13.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.13671337760500446,
+        "subjectivity": 0.5222391494704692
+      },
+      "statistics": {
+        "average letter per word": 4.83,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 586794,
+        "polysyllables": 4603,
+        "sentences": 6511,
+        "syllables": 170648.1,
+        "words": 121533
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PS",
+      "languages": "en",
+      "subjects": "Mentally ill women -- Fiction,Feminist fiction,Psychological fiction,Married women -- Psychology -- Fiction,Sex role -- Fiction",
+      "title": "The Yellow Wallpaper",
+      "type": "Text",
+      "author": {
+        "birth": 1860,
+        "death": 1935,
+        "name": "Gilman, Charlotte Perkins"
+      },
+      "publication": {
+        "day": 1,
+        "full": "November, 1999",
+        "month": 11,
+        "month name": "November",
+        "year": 1999
+      }
+    },
+    "metadata": {
+      "downloads": 26363,
+      "id": 1952,
+      "rank": 2,
+      "url": "https://www.gutenberg.org/ebooks/1952",
+      "formats": {
+        "total": 7,
+        "types": "application/x-mobipocket-ebook,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 7.2,
+        "coleman liau index": 8.0,
+        "dale chall readability score": 6.24,
+        "difficult words": 714,
+        "flesch kincaid grade": 5.6,
+        "flesch reading ease": 81.63,
+        "gunning fog": 8.0,
+        "linsear write formula": 5.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.054174293365012734,
+        "subjectivity": 0.5347874264082076
+      },
+      "statistics": {
+        "average letter per word": 4.41,
+        "average sentence length": 15.0,
+        "average sentence per word": 0.06,
+        "characters": 26769,
+        "polysyllables": 102,
+        "sentences": 385,
+        "syllables": 7686.9,
+        "words": 6067
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PZ,PR",
+      "languages": "en",
+      "subjects": "Fantasy",
+      "title": "Alice's Adventures in Wonderland",
+      "type": "Text",
+      "author": {
+        "birth": 1832,
+        "death": 1898,
+        "name": "Carroll, Lewis"
+      },
+      "publication": {
+        "day": 1,
+        "full": "March, 1994",
+        "month": 3,
+        "month name": "March",
+        "year": 1994
+      }
+    },
+    "metadata": {
+      "downloads": 18882,
+      "id": 11,
+      "rank": 3,
+      "url": "https://www.gutenberg.org/ebooks/11",
+      "formats": {
+        "total": 8,
+        "types": "application/x-mobipocket-ebook,text/plain; charset=us-ascii,text/plain,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,application/pdf"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.3,
+        "coleman liau index": 9.39,
+        "dale chall readability score": 5.93,
+        "difficult words": 2425,
+        "flesch kincaid grade": 6.4,
+        "flesch reading ease": 79.6,
+        "gunning fog": 8.8,
+        "linsear write formula": 14.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.04107860874944599,
+        "subjectivity": 0.49727636711271855
+      },
+      "statistics": {
+        "average letter per word": 4.65,
+        "average sentence length": 17.0,
+        "average sentence per word": 0.06,
+        "characters": 122719,
+        "polysyllables": 339,
+        "sentences": 1501,
+        "syllables": 33810.3,
+        "words": 26389
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Monsters -- Fiction;Frankenstein's monster (Fictitious character) -- Fiction;Gothic fiction (Literary genre);Science fiction;Frankenstein, Victor (Fictitious character) -- Fiction;Scientists -- Fiction;Horror tales",
+      "title": "Frankenstein; Or, The Modern Prometheus",
+      "type": "Text",
+      "author": {
+        "birth": 1797,
+        "death": 1851,
+        "name": "Shelley, Mary Wollstonecraft"
+      },
+      "publication": {
+        "day": 17,
+        "full": "June 17, 2008",
+        "month": 6,
+        "month name": "June",
+        "year": 2008
+      }
+    },
+    "metadata": {
+      "downloads": 17128,
+      "id": 84,
+      "rank": 4,
+      "url": "https://www.gutenberg.org/ebooks/84",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=iso-8859-1,text/plain,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 12.6,
+        "coleman liau index": 10.68,
+        "dale chall readability score": 6.44,
+        "difficult words": 7884,
+        "flesch kincaid grade": 9.9,
+        "flesch reading ease": 65.05,
+        "gunning fog": 11.200000000000001,
+        "linsear write formula": 7.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.10090153627465286,
+        "subjectivity": 0.5395161487551757
+      },
+      "statistics": {
+        "average letter per word": 4.77,
+        "average sentence length": 23.0,
+        "average sentence per word": 0.04,
+        "characters": 357604,
+        "polysyllables": 2604,
+        "sentences": 3239,
+        "syllables": 106802.1,
+        "words": 74959
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PT",
+      "languages": "en",
+      "subjects": "Psychological fiction,Metamorphosis -- Fiction",
+      "title": "Metamorphosis",
+      "type": "Text",
+      "author": {
+        "birth": 1883,
+        "death": 1924,
+        "name": "Kafka, Franz"
+      },
+      "publication": {
+        "day": 16,
+        "full": "August 16, 2005",
+        "month": 8,
+        "month name": "August",
+        "year": 2005
+      }
+    },
+    "metadata": {
+      "downloads": 15683,
+      "id": 5200,
+      "rank": 5,
+      "url": "https://www.gutenberg.org/ebooks/5200",
+      "formats": {
+        "total": 8,
+        "types": "text/plain; charset=us-ascii,text/rtf,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=iso-8859-1,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 13.8,
+        "coleman liau index": 9.46,
+        "dale chall readability score": 6.37,
+        "difficult words": 1947,
+        "flesch kincaid grade": 10.3,
+        "flesch reading ease": 69.45,
+        "gunning fog": 12.8,
+        "linsear write formula": 10.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.041996935670926445,
+        "subjectivity": 0.47901921546913884
+      },
+      "statistics": {
+        "average letter per word": 4.56,
+        "average sentence length": 27.0,
+        "average sentence per word": 0.04,
+        "characters": 100372,
+        "polysyllables": 397,
+        "sentences": 800,
+        "syllables": 28752.3,
+        "words": 22022
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PS",
+      "languages": "en",
+      "subjects": "Male friendship -- Fiction;Humorous stories;Missouri -- Fiction;Race relations -- Fiction;Bildungsromans;Finn, Huckleberry (Fictitious character) -- Fiction;Fugitive slaves -- Fiction;Mississippi River -- Fiction;Adventure stories;Runaway children -- Fiction;Boys -- Fiction",
+      "title": "Adventures of Huckleberry Finn",
+      "type": "Text",
+      "author": {
+        "birth": 1835,
+        "death": 1910,
+        "name": "Twain, Mark"
+      },
+      "publication": {
+        "day": 20,
+        "full": "August 20, 2006",
+        "month": 8,
+        "month name": "August",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 15347,
+      "id": 76,
+      "rank": 6,
+      "url": "https://www.gutenberg.org/ebooks/76",
+      "formats": {
+        "total": 8,
+        "types": "image/jpeg,text/html; charset=iso-8859-1,application/x-mobipocket-ebook,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.7,
+        "coleman liau index": 8.01,
+        "dale chall readability score": 5.59,
+        "difficult words": 7087,
+        "flesch kincaid grade": 6.0,
+        "flesch reading ease": 86.03,
+        "gunning fog": 9.600000000000001,
+        "linsear write formula": 2.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.08931925862018178,
+        "subjectivity": 0.4745187951630081
+      },
+      "statistics": {
+        "average letter per word": 4.36,
+        "average sentence length": 19.0,
+        "average sentence per word": 0.05,
+        "characters": 485099,
+        "polysyllables": 1180,
+        "sentences": 5792,
+        "syllables": 132642.9,
+        "words": 111219
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Identity (Psychology) -- Drama,Comedies,England -- Drama,Foundlings -- Drama",
+      "title": "The Importance of Being Earnest: A Trivial Comedy for Serious People",
+      "type": "Text",
+      "author": {
+        "birth": 1854,
+        "death": 1900,
+        "name": "Wilde, Oscar"
+      },
+      "publication": {
+        "day": 29,
+        "full": "August 29, 2006",
+        "month": 8,
+        "month name": "August",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 13638,
+      "id": 844,
+      "rank": 7,
+      "url": "https://www.gutenberg.org/ebooks/844",
+      "formats": {
+        "total": 7,
+        "types": "text/html,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 7.0,
+        "coleman liau index": 9.89,
+        "dale chall readability score": 5.96,
+        "difficult words": 2387,
+        "flesch kincaid grade": 4.8,
+        "flesch reading ease": 78.25,
+        "gunning fog": 6.0,
+        "linsear write formula": 3.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.10026968514280647,
+        "subjectivity": 0.534784343060185
+      },
+      "statistics": {
+        "average letter per word": 4.94,
+        "average sentence length": 10.0,
+        "average sentence per word": 0.1,
+        "characters": 101906,
+        "polysyllables": 555,
+        "sentences": 1994,
+        "syllables": 29187.0,
+        "words": 20625
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PZ,PS",
+      "languages": "en",
+      "subjects": "Male friendship -- Fiction;Humorous stories;Missouri -- Fiction;Child witnesses -- Fiction;Bildungsromans;Mississippi River Valley -- Fiction;Adventure stories;Runaway children -- Fiction;Boys -- Fiction;Sawyer, Tom (Fictitious character) -- Fiction",
+      "title": "The Adventures of Tom Sawyer",
+      "type": "Text",
+      "author": {
+        "birth": 1835,
+        "death": 1910,
+        "name": "Twain, Mark"
+      },
+      "publication": {
+        "day": 20,
+        "full": "August 20, 2006",
+        "month": 8,
+        "month name": "August",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 13237,
+      "id": 74,
+      "rank": 8,
+      "url": "https://www.gutenberg.org/ebooks/74",
+      "formats": {
+        "total": 8,
+        "types": "image/jpeg,text/html; charset=iso-8859-1,text/plain,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.8,
+        "coleman liau index": 10.15,
+        "dale chall readability score": 6.16,
+        "difficult words": 7974,
+        "flesch kincaid grade": 5.6,
+        "flesch reading ease": 81.63,
+        "gunning fog": 8.0,
+        "linsear write formula": 4.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06476107829562262,
+        "subjectivity": 0.48704844378158596
+      },
+      "statistics": {
+        "average letter per word": 4.78,
+        "average sentence length": 15.0,
+        "average sentence per word": 0.06,
+        "characters": 338075,
+        "polysyllables": 1488,
+        "sentences": 4594,
+        "syllables": 92593.8,
+        "words": 70796
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "E300",
+      "languages": "en",
+      "subjects": "Slaves -- United States -- Biography;Douglass, Frederick, 1818-1895;African American abolitionists -- Biography;Abolitionists -- United States -- Biography",
+      "title": "Narrative of the Life of Frederick Douglass, an American Slave",
+      "type": "Text",
+      "author": {
+        "birth": 1818,
+        "death": 1895,
+        "name": "Douglass, Frederick"
+      },
+      "publication": {
+        "day": 10,
+        "full": "January 10, 2006",
+        "month": 1,
+        "month name": "January",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 12794,
+      "id": 23,
+      "rank": 9,
+      "url": "https://www.gutenberg.org/ebooks/23",
+      "formats": {
+        "total": 7,
+        "types": "text/plain,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.5,
+        "coleman liau index": 9.86,
+        "dale chall readability score": 6.48,
+        "difficult words": 4894,
+        "flesch kincaid grade": 8.3,
+        "flesch reading ease": 69.11,
+        "gunning fog": 9.600000000000001,
+        "linsear write formula": 7.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.09387813584045827,
+        "subjectivity": 0.5074296460875009
+      },
+      "statistics": {
+        "average letter per word": 4.68,
+        "average sentence length": 19.0,
+        "average sentence per word": 0.05,
+        "characters": 190493,
+        "polysyllables": 1226,
+        "sentences": 2062,
+        "syllables": 55913.4,
+        "words": 40740
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PT",
+      "languages": "en",
+      "subjects": "Wives -- Drama,Man-woman relationships -- Drama,Marriage -- Drama,Norwegian drama -- Translations into English",
+      "title": "A Doll's House : a play",
+      "type": "Text",
+      "author": {
+        "birth": 1828,
+        "death": 1906,
+        "name": "Ibsen, Henrik"
+      },
+      "publication": {
+        "day": 1,
+        "full": "March, 2001",
+        "month": 3,
+        "month name": "March",
+        "year": 2001
+      }
+    },
+    "metadata": {
+      "downloads": 11625,
+      "id": 2542,
+      "rank": 10,
+      "url": "https://www.gutenberg.org/ebooks/2542",
+      "formats": {
+        "total": 7,
+        "types": "application/x-mobipocket-ebook,text/plain; charset=us-ascii,text/plain,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 5.3,
+        "coleman liau index": 7.98,
+        "dale chall readability score": 5.53,
+        "difficult words": 2342,
+        "flesch kincaid grade": 3.7,
+        "flesch reading ease": 86.71,
+        "gunning fog": 6.0,
+        "linsear write formula": 4.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.026261727941188452,
+        "subjectivity": 0.5805215079924373
+      },
+      "statistics": {
+        "average letter per word": 4.61,
+        "average sentence length": 10.0,
+        "average sentence per word": 0.1,
+        "characters": 121943,
+        "polysyllables": 378,
+        "sentences": 2624,
+        "syllables": 33722.1,
+        "words": 26466
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PS",
+      "languages": "en",
+      "subjects": "Ship captains -- Fiction;Whaling ships -- Fiction;Psychological fiction;Whaling -- Fiction;Whales -- Fiction;Ahab, Captain (Fictitious character) -- Fiction;Sea stories;Adventure stories;Mentally ill -- Fiction",
+      "title": "Moby Dick; Or, The Whale",
+      "type": "Text",
+      "author": {
+        "birth": 1819,
+        "death": 1891,
+        "name": "Melville, Herman"
+      },
+      "publication": {
+        "day": 1,
+        "full": "June, 2001",
+        "month": 6,
+        "month name": "June",
+        "year": 2001
+      }
+    },
+    "metadata": {
+      "downloads": 11270,
+      "id": 2701,
+      "rank": 11,
+      "url": "https://www.gutenberg.org/ebooks/2701",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=us-ascii,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 13.4,
+        "coleman liau index": 11.55,
+        "dale chall readability score": 6.5,
+        "difficult words": 23167,
+        "flesch kincaid grade": 9.9,
+        "flesch reading ease": 65.05,
+        "gunning fog": 11.200000000000001,
+        "linsear write formula": 11.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.08228645346376395,
+        "subjectivity": 0.4780492613378924
+      },
+      "statistics": {
+        "average letter per word": 4.92,
+        "average sentence length": 23.0,
+        "average sentence per word": 0.04,
+        "characters": 1043045,
+        "polysyllables": 6639,
+        "sentences": 9104,
+        "syllables": 294744.6,
+        "words": 212099
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Private investigators -- England -- Fiction;Detective and mystery stories, English;Holmes, Sherlock (Fictitious character) -- Fiction",
+      "title": "The Adventures of Sherlock Holmes",
+      "type": "Text",
+      "author": {
+        "birth": 1859,
+        "death": 1930,
+        "name": "Doyle, Arthur Conan"
+      },
+      "publication": {
+        "day": 14,
+        "full": "October 14, 1892",
+        "month": 10,
+        "month name": "October",
+        "year": 1892
+      }
+    },
+    "metadata": {
+      "downloads": 11125,
+      "id": 1661,
+      "rank": 12,
+      "url": "https://www.gutenberg.org/ebooks/1661",
+      "formats": {
+        "total": 8,
+        "types": "application/rdf+xml,text/html; charset=iso-8859-1,application/x-mobipocket-ebook,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,text/plain; charset=us-ascii,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.2,
+        "coleman liau index": 9.1,
+        "dale chall readability score": 5.81,
+        "difficult words": 9148,
+        "flesch kincaid grade": 6.0,
+        "flesch reading ease": 80.62,
+        "gunning fog": 8.4,
+        "linsear write formula": 2.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06259143797439362,
+        "subjectivity": 0.48668184738715853
+      },
+      "statistics": {
+        "average letter per word": 4.6,
+        "average sentence length": 16.0,
+        "average sentence per word": 0.06,
+        "characters": 480294,
+        "polysyllables": 1978,
+        "sentences": 6522,
+        "syllables": 137215.8,
+        "words": 104488
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Revenge -- Fiction,Ex-convicts -- Fiction,Orphans -- Fiction,Bildungsromans,England -- Fiction,Man-woman relationships -- Fiction,Benefactors -- Fiction,Young men -- Fiction",
+      "title": "Great Expectations",
+      "type": "Text",
+      "author": {
+        "birth": 1812,
+        "death": 1870,
+        "name": "Dickens, Charles"
+      },
+      "publication": {
+        "day": 1,
+        "full": "July, 1998",
+        "month": 7,
+        "month name": "July",
+        "year": 1998
+      }
+    },
+    "metadata": {
+      "downloads": 11068,
+      "id": 1400,
+      "rank": 13,
+      "url": "https://www.gutenberg.org/ebooks/1400",
+      "formats": {
+        "total": 8,
+        "types": "text/plain; charset=us-ascii,application/x-mobipocket-ebook,text/html; charset=iso-8859-1,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.9,
+        "coleman liau index": 9.34,
+        "dale chall readability score": 5.8,
+        "difficult words": 14224,
+        "flesch kincaid grade": 7.2,
+        "flesch reading ease": 77.57,
+        "gunning fog": 9.600000000000001,
+        "linsear write formula": 7.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.07798368485830932,
+        "subjectivity": 0.4906242353128296
+      },
+      "statistics": {
+        "average letter per word": 4.59,
+        "average sentence length": 19.0,
+        "average sentence per word": 0.05,
+        "characters": 845501,
+        "polysyllables": 4088,
+        "sentences": 9487,
+        "syllables": 240762.6,
+        "words": 184398
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Male friendship -- Fiction,City and town life -- Fiction,Psychological fiction,Alienation (Social psychology) -- Fiction,Married people -- Fiction,Jewish men -- Fiction,Artists -- Fiction,Epic literature,Domestic fiction,Dublin (Ireland) -- Fiction",
+      "title": "Ulysses",
+      "type": "Text",
+      "author": {
+        "birth": 1882,
+        "death": 1941,
+        "name": "Joyce, James"
+      },
+      "publication": {
+        "day": 1,
+        "full": "July, 2003",
+        "month": 7,
+        "month name": "July",
+        "year": 2003
+      }
+    },
+    "metadata": {
+      "downloads": 10568,
+      "id": 4300,
+      "rank": 14,
+      "url": "https://www.gutenberg.org/ebooks/4300",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=iso-8859-1,text/plain; charset=us-ascii,text/plain,application/rdf+xml,application/epub+zip,text/plain; charset=iso-8859-1,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.6,
+        "coleman liau index": 10.84,
+        "dale chall readability score": 6.35,
+        "difficult words": 34649,
+        "flesch kincaid grade": 6.0,
+        "flesch reading ease": 75.2,
+        "gunning fog": 7.2,
+        "linsear write formula": 6.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.07123035788724716,
+        "subjectivity": 0.46306693286286965
+      },
+      "statistics": {
+        "average letter per word": 4.95,
+        "average sentence length": 13.0,
+        "average sentence per word": 0.07,
+        "characters": 1311231,
+        "polysyllables": 7005,
+        "sentences": 19726,
+        "syllables": 363292.2,
+        "words": 264835
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "War stories;France -- History -- Revolution, 1789-1799 -- Fiction;Paris (France) -- History -- 1789-1799 -- Fiction;French -- England -- London -- Fiction;Executions and executioners -- Fiction;London (England) -- History -- 18th century -- Fiction;British -- France -- Paris -- Fiction;Historical fiction;Lookalikes -- Fiction",
+      "title": "A Tale of Two Cities",
+      "type": "Text",
+      "author": {
+        "birth": 1812,
+        "death": 1870,
+        "name": "Dickens, Charles"
+      },
+      "publication": {
+        "day": 1,
+        "full": "January, 1994",
+        "month": 1,
+        "month name": "January",
+        "year": 1994
+      }
+    },
+    "metadata": {
+      "downloads": 10312,
+      "id": 98,
+      "rank": 15,
+      "url": "https://www.gutenberg.org/ebooks/98",
+      "formats": {
+        "total": 8,
+        "types": "application/rdf+xml,text/html; charset=iso-8859-1,text/plain,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,text/plain; charset=us-ascii,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.3,
+        "coleman liau index": 10.44,
+        "dale chall readability score": 6.0,
+        "difficult words": 12613,
+        "flesch kincaid grade": 6.8,
+        "flesch reading ease": 78.59,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 56.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.07806610204565802,
+        "subjectivity": 0.4904532055717023
+      },
+      "statistics": {
+        "average letter per word": 4.78,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 649070,
+        "polysyllables": 3256,
+        "sentences": 7396,
+        "syllables": 183016.8,
+        "words": 135820
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Ireland -- Politics and government -- 18th century -- Humor;Religious satire, English;Political satire, English",
+      "title": "A Modest Proposal: For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+      "type": "Text",
+      "author": {
+        "birth": 1667,
+        "death": 1745,
+        "name": "Swift, Jonathan"
+      },
+      "publication": {
+        "day": 1,
+        "full": "October 1997",
+        "month": 10,
+        "month name": "October",
+        "year": 1997
+      }
+    },
+    "metadata": {
+      "downloads": 10014,
+      "id": 1080,
+      "rank": 16,
+      "url": "https://www.gutenberg.org/ebooks/1080",
+      "formats": {
+        "total": 6,
+        "types": "text/plain,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/rdf+xml,application/epub+zip,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 26.6,
+        "coleman liau index": 11.91,
+        "dale chall readability score": 9.24,
+        "difficult words": 674,
+        "flesch kincaid grade": 20.4,
+        "flesch reading ease": 37.65,
+        "gunning fog": 22.0,
+        "linsear write formula": 18.0,
+        "smog index": 8.8
+      },
+      "sentiments": {
+        "polarity": 0.1756914585039587,
+        "subjectivity": 0.5064583455208455
+      },
+      "statistics": {
+        "average letter per word": 4.88,
+        "average sentence length": 50.0,
+        "average sentence per word": 0.02,
+        "characters": 16656,
+        "polysyllables": 86,
+        "sentences": 68,
+        "syllables": 4864.5,
+        "words": 3410
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Dracula, Count (Fictitious character) -- Fiction;Epistolary fiction;Vampires -- Fiction;Gothic fiction (Literary genre);Transylvania (Romania) -- Fiction;Whitby (England) -- Fiction;Horror tales",
+      "title": "Dracula",
+      "type": "Text",
+      "author": {
+        "birth": 1847,
+        "death": 1912,
+        "name": "Stoker, Bram"
+      },
+      "publication": {
+        "day": 16,
+        "full": "August 16, 2013",
+        "month": 8,
+        "month name": "August",
+        "year": 2013
+      }
+    },
+    "metadata": {
+      "downloads": 9852,
+      "id": 345,
+      "rank": 17,
+      "url": "https://www.gutenberg.org/ebooks/345",
+      "formats": {
+        "total": 9,
+        "types": "image/jpeg,text/html; charset=utf-8,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=iso-8859-1,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.8,
+        "coleman liau index": 8.3,
+        "dale chall readability score": 5.65,
+        "difficult words": 11445,
+        "flesch kincaid grade": 6.8,
+        "flesch reading ease": 78.59,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 18.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.075270589540311,
+        "subjectivity": 0.5030392097632636
+      },
+      "statistics": {
+        "average letter per word": 4.41,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 708335,
+        "polysyllables": 2338,
+        "sentences": 8522,
+        "syllables": 202932.9,
+        "words": 160693
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "JC",
+      "languages": "en",
+      "subjects": "Political ethics -- Early works to 1800;Political science -- Philosophy -- Early works to 1800;State, The -- Early works to 1800",
+      "title": "The Prince",
+      "type": "Text",
+      "author": {
+        "birth": 1469,
+        "death": 1527,
+        "name": "Machiavelli, Niccolo"
+      },
+      "publication": {
+        "day": 11,
+        "full": "February 11, 2006",
+        "month": 2,
+        "month name": "February",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 9690,
+      "id": 1232,
+      "rank": 18,
+      "url": "https://www.gutenberg.org/ebooks/1232",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=us-ascii,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 20.6,
+        "coleman liau index": 11.33,
+        "dale chall readability score": 7.23,
+        "difficult words": 5367,
+        "flesch kincaid grade": 15.8,
+        "flesch reading ease": 49.83,
+        "gunning fog": 17.2,
+        "linsear write formula": 6.5,
+        "smog index": 8.8
+      },
+      "sentiments": {
+        "polarity": 0.1465468177804127,
+        "subjectivity": 0.5204133612464581
+      },
+      "statistics": {
+        "average letter per word": 4.83,
+        "average sentence length": 38.0,
+        "average sentence per word": 0.03,
+        "characters": 239378,
+        "polysyllables": 1905,
+        "sentences": 1287,
+        "syllables": 71705.7,
+        "words": 49525
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "London (England) -- History -- 1800-1950 -- Fiction;Conduct of life -- Fiction;Paranormal fiction;Portraits -- Fiction;Appearance (Philosophy) -- Fiction;Supernatural -- Fiction;Great Britain -- History -- Victoria, 1837-1901 -- Fiction;Didactic fiction",
+      "title": "The Picture of Dorian Gray",
+      "type": "Text",
+      "author": {
+        "birth": 1854,
+        "death": 1900,
+        "name": "Wilde, Oscar"
+      },
+      "publication": {
+        "day": 9,
+        "full": "June 9, 2008",
+        "month": 6,
+        "month name": "June",
+        "year": 2008
+      }
+    },
+    "metadata": {
+      "downloads": 9681,
+      "id": 174,
+      "rank": 19,
+      "url": "https://www.gutenberg.org/ebooks/174",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=iso-8859-1,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 6.7,
+        "coleman liau index": 8.69,
+        "dale chall readability score": 5.74,
+        "difficult words": 7523,
+        "flesch kincaid grade": 4.4,
+        "flesch reading ease": 84.68,
+        "gunning fog": 6.800000000000001,
+        "linsear write formula": 4.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06991381964989916,
+        "subjectivity": 0.5458973341303766
+      },
+      "statistics": {
+        "average letter per word": 4.63,
+        "average sentence length": 12.0,
+        "average sentence per word": 0.08,
+        "characters": 365606,
+        "polysyllables": 1647,
+        "sentences": 6234,
+        "syllables": 105003.9,
+        "words": 78920
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PG",
+      "languages": "en",
+      "subjects": "War stories;Napoleonic Wars, 1800-1815 -- Campaigns -- Russia -- Fiction;Aristocracy (Social class) -- Russia -- Fiction;Historical fiction;Russia -- History -- Alexander I, 1801-1825 -- Fiction",
+      "title": "War and Peace",
+      "type": "Text",
+      "author": {
+        "birth": 1828,
+        "death": 1910,
+        "name": "Tolstoy, Leo, graf"
+      },
+      "publication": {
+        "day": 1,
+        "full": "January 1, 1870",
+        "month": 1,
+        "month name": "January",
+        "year": 1870
+      }
+    },
+    "metadata": {
+      "downloads": 9580,
+      "id": 2600,
+      "rank": 20,
+      "url": "https://www.gutenberg.org/ebooks/2600",
+      "formats": {
+        "total": 7,
+        "types": "text/plain,text/plain; charset=us-ascii,application/x-mobipocket-ebook,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.8,
+        "coleman liau index": 11.14,
+        "dale chall readability score": 5.36,
+        "difficult words": 29647,
+        "flesch kincaid grade": 7.9,
+        "flesch reading ease": 70.13,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 53.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.08206641711733968,
+        "subjectivity": 0.47401511558244336
+      },
+      "statistics": {
+        "average letter per word": 4.9,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 2759940,
+        "polysyllables": 16369,
+        "sentences": 30757,
+        "syllables": 787942.8,
+        "words": 563029
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PT",
+      "languages": "en",
+      "subjects": "Fairy tales -- Germany",
+      "title": "Grimms' Fairy Tales",
+      "type": "Text",
+      "author": {
+        "birth": 1786,
+        "death": 1859,
+        "name": "Grimm, Wilhelm"
+      },
+      "publication": {
+        "day": 1,
+        "full": "April, 2001",
+        "month": 4,
+        "month name": "April",
+        "year": 2001
+      }
+    },
+    "metadata": {
+      "downloads": 9016,
+      "id": 2591,
+      "rank": 21,
+      "url": "https://www.gutenberg.org/ebooks/2591",
+      "formats": {
+        "total": 8,
+        "types": "application/x-mobipocket-ebook,text/plain; charset=us-ascii,application/pdf,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.5,
+        "coleman liau index": 8.01,
+        "dale chall readability score": 1.91,
+        "difficult words": 4955,
+        "flesch kincaid grade": 7.5,
+        "flesch reading ease": 81.97,
+        "gunning fog": 11.200000000000001,
+        "linsear write formula": 13.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.10661117464793538,
+        "subjectivity": 0.4841397158628057
+      },
+      "statistics": {
+        "average letter per word": 4.31,
+        "average sentence length": 23.0,
+        "average sentence per word": 0.04,
+        "characters": 435880,
+        "polysyllables": 394,
+        "sentences": 4355,
+        "syllables": 121229.1,
+        "words": 101107
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "HQ",
+      "languages": "en",
+      "subjects": "Love,Sex",
+      "title": "The Kama Sutra of Vatsyayana: Translated From the Sanscrit in Seven Parts With Preface, Introduction and Concluding Remarks",
+      "type": "Text",
+      "author": {
+        "birth": 0,
+        "death": 0,
+        "name": "Vatsyayana"
+      },
+      "publication": {
+        "day": 18,
+        "full": "January 18, 2009",
+        "month": 1,
+        "month name": "January",
+        "year": 2009
+      }
+    },
+    "metadata": {
+      "downloads": 8559,
+      "id": 27827,
+      "rank": 22,
+      "url": "https://www.gutenberg.org/ebooks/27827",
+      "formats": {
+        "total": 8,
+        "types": "application/rdf+xml,text/html; charset=iso-8859-1,application/x-mobipocket-ebook,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,text/plain; charset=us-ascii,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 13.5,
+        "coleman liau index": 10.91,
+        "dale chall readability score": 6.36,
+        "difficult words": 5708,
+        "flesch kincaid grade": 10.3,
+        "flesch reading ease": 64.04,
+        "gunning fog": 11.600000000000001,
+        "linsear write formula": 6.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.13107012953611397,
+        "subjectivity": 0.46422065099943055
+      },
+      "statistics": {
+        "average letter per word": 4.81,
+        "average sentence length": 24.0,
+        "average sentence per word": 0.04,
+        "characters": 283286,
+        "polysyllables": 1464,
+        "sentences": 2397,
+        "syllables": 81087.3,
+        "words": 58912
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Fathers and daughters -- Fiction,Humorous stories,Bildungsromans,England -- Fiction,Mate selection -- Fiction,Female friendship -- Fiction,Young women -- Fiction,Love stories",
+      "title": "Emma",
+      "type": "Text",
+      "author": {
+        "birth": 1775,
+        "death": 1817,
+        "name": "Austen, Jane"
+      },
+      "publication": {
+        "day": 1,
+        "full": "August, 1994",
+        "month": 8,
+        "month name": "August",
+        "year": 1994
+      }
+    },
+    "metadata": {
+      "downloads": 8513,
+      "id": 158,
+      "rank": 23,
+      "url": "https://www.gutenberg.org/ebooks/158",
+      "formats": {
+        "total": 8,
+        "types": "text/plain,text/html; charset=us-ascii,text/plain; charset=us-ascii,application/pdf,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.6,
+        "coleman liau index": 10.26,
+        "dale chall readability score": 5.68,
+        "difficult words": 12447,
+        "flesch kincaid grade": 7.2,
+        "flesch reading ease": 72.16,
+        "gunning fog": 8.4,
+        "linsear write formula": 18.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.157109182497322,
+        "subjectivity": 0.5423073450027583
+      },
+      "statistics": {
+        "average letter per word": 4.8,
+        "average sentence length": 16.0,
+        "average sentence per word": 0.06,
+        "characters": 755056,
+        "polysyllables": 4851,
+        "sentences": 9348,
+        "syllables": 216434.7,
+        "words": 157439
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Dragons -- Poetry;Epic poetry, English (Old);Monsters -- Poetry",
+      "title": "Beowulf: An Anglo-Saxon Epic Poem",
+      "type": "Text",
+      "author": {
+        "birth": 0,
+        "death": 0,
+        "name": "Unknown"
+      },
+      "publication": {
+        "day": 19,
+        "full": "July 19, 2005",
+        "month": 7,
+        "month name": "July",
+        "year": 2005
+      }
+    },
+    "metadata": {
+      "downloads": 8199,
+      "id": 16328,
+      "rank": 24,
+      "url": "https://www.gutenberg.org/ebooks/16328",
+      "formats": {
+        "total": 8,
+        "types": "text/html,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 13.3,
+        "coleman liau index": 14.03,
+        "dale chall readability score": 7.5,
+        "difficult words": 7311,
+        "flesch kincaid grade": 7.9,
+        "flesch reading ease": 70.13,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 8.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.13712860361621118,
+        "subjectivity": 0.5371790132759954
+      },
+      "statistics": {
+        "average letter per word": 5.45,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.06,
+        "characters": 211970,
+        "polysyllables": 900,
+        "sentences": 2142,
+        "syllables": 54235.8,
+        "words": 38925
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PQ",
+      "languages": "en",
+      "subjects": "Paris (France) -- Fiction,Ex-convicts -- Fiction,Epic literature,Orphans -- Fiction,Historical fiction",
+      "title": "Les Mis\u00e9rables",
+      "type": "Text",
+      "author": {
+        "birth": 1802,
+        "death": 1885,
+        "name": "Hugo, Victor"
+      },
+      "publication": {
+        "day": 22,
+        "full": "June 22, 2008",
+        "month": 6,
+        "month name": "June",
+        "year": 2008
+      }
+    },
+    "metadata": {
+      "downloads": 7900,
+      "id": 135,
+      "rank": 25,
+      "url": "https://www.gutenberg.org/ebooks/135",
+      "formats": {
+        "total": 5,
+        "types": "text/html; charset=utf-8,application/rdf+xml,application/epub+zip,image/jpeg,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.2,
+        "coleman liau index": 11.02,
+        "dale chall readability score": 5.51,
+        "difficult words": 38795,
+        "flesch kincaid grade": 7.2,
+        "flesch reading ease": 72.16,
+        "gunning fog": 8.4,
+        "linsear write formula": 6.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.0777559225920661,
+        "subjectivity": 0.494210060487325
+      },
+      "statistics": {
+        "average letter per word": 4.93,
+        "average sentence length": 16.0,
+        "average sentence per word": 0.06,
+        "characters": 2783024,
+        "polysyllables": 17239,
+        "sentences": 33543,
+        "syllables": 790112.7,
+        "words": 565071
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Erotic stories",
+      "title": "The Romance of Lust: A Classic Victorian erotic novel",
+      "type": "Text",
+      "author": {
+        "birth": 0,
+        "death": 0,
+        "name": "Anonymous"
+      },
+      "publication": {
+        "day": 14,
+        "full": "October 14, 2009",
+        "month": 10,
+        "month name": "October",
+        "year": 2009
+      }
+    },
+    "metadata": {
+      "downloads": 7458,
+      "id": 30254,
+      "rank": 26,
+      "url": "https://www.gutenberg.org/ebooks/30254",
+      "formats": {
+        "total": 8,
+        "types": "text/html,text/plain; charset=us-ascii,text/plain,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 12.9,
+        "coleman liau index": 9.93,
+        "dale chall readability score": 5.68,
+        "difficult words": 10266,
+        "flesch kincaid grade": 10.3,
+        "flesch reading ease": 64.04,
+        "gunning fog": 11.600000000000001,
+        "linsear write formula": 7.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.19117116184685465,
+        "subjectivity": 0.5466514480657667
+      },
+      "statistics": {
+        "average letter per word": 4.64,
+        "average sentence length": 24.0,
+        "average sentence per word": 0.04,
+        "characters": 876698,
+        "polysyllables": 4879,
+        "sentences": 7588,
+        "syllables": 256281.3,
+        "words": 188911
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Country homes -- Fiction,Fathers and daughters -- Fiction,Charity-schools -- Fiction,Orphans -- Fiction,Bildungsromans,England -- Fiction,Married people -- Fiction,Mentally ill women -- Fiction,Governesses -- Fiction,Young women -- Fiction,Love stories",
+      "title": "Jane Eyre: An Autobiography",
+      "type": "Text",
+      "author": {
+        "birth": 1816,
+        "death": 1855,
+        "name": "Bronte, Charlotte"
+      },
+      "publication": {
+        "day": 29,
+        "full": "April 29, 2007",
+        "month": 4,
+        "month name": "April",
+        "year": 2007
+      }
+    },
+    "metadata": {
+      "downloads": 7449,
+      "id": 1260,
+      "rank": 27,
+      "url": "https://www.gutenberg.org/ebooks/1260",
+      "formats": {
+        "total": 6,
+        "types": "text/html,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.4,
+        "coleman liau index": 10.1,
+        "dale chall readability score": 6.17,
+        "difficult words": 18723,
+        "flesch kincaid grade": 8.3,
+        "flesch reading ease": 69.11,
+        "gunning fog": 9.600000000000001,
+        "linsear write formula": 8.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.0841139886145198,
+        "subjectivity": 0.5025611302873831
+      },
+      "statistics": {
+        "average letter per word": 4.72,
+        "average sentence length": 19.0,
+        "average sentence per word": 0.05,
+        "characters": 876153,
+        "polysyllables": 4697,
+        "sentences": 9674,
+        "syllables": 250376.4,
+        "words": 185452
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PS",
+      "languages": "en",
+      "subjects": "American poetry -- 19th century",
+      "title": "Leaves of Grass",
+      "type": "Text",
+      "author": {
+        "birth": 1819,
+        "death": 1892,
+        "name": "Whitman, Walt"
+      },
+      "publication": {
+        "day": 1,
+        "full": "May, 1998",
+        "month": 5,
+        "month name": "May",
+        "year": 1998
+      }
+    },
+    "metadata": {
+      "downloads": 6899,
+      "id": 1322,
+      "rank": 28,
+      "url": "https://www.gutenberg.org/ebooks/1322",
+      "formats": {
+        "total": 6,
+        "types": "text/plain,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/rdf+xml,application/epub+zip,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 19.1,
+        "coleman liau index": 12.25,
+        "dale chall readability score": 7.34,
+        "difficult words": 15547,
+        "flesch kincaid grade": 14.2,
+        "flesch reading ease": 53.89,
+        "gunning fog": 15.600000000000001,
+        "linsear write formula": 26.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.14474490574127938,
+        "subjectivity": 0.5076378089163257
+      },
+      "statistics": {
+        "average letter per word": 4.99,
+        "average sentence length": 34.0,
+        "average sentence per word": 0.03,
+        "characters": 607831,
+        "polysyllables": 2727,
+        "sentences": 3570,
+        "syllables": 165151.8,
+        "words": 121711
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Short stories,Dublin (Ireland) -- Fiction",
+      "title": "Dubliners",
+      "type": "Text",
+      "author": {
+        "birth": 1882,
+        "death": 1941,
+        "name": "Joyce, James"
+      },
+      "publication": {
+        "day": 1,
+        "full": "September, 2001",
+        "month": 9,
+        "month name": "September",
+        "year": 2001
+      }
+    },
+    "metadata": {
+      "downloads": 6879,
+      "id": 2814,
+      "rank": 29,
+      "url": "https://www.gutenberg.org/ebooks/2814",
+      "formats": {
+        "total": 6,
+        "types": "text/html; charset=utf-8,text/plain; charset=utf-8,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.0,
+        "coleman liau index": 9.21,
+        "dale chall readability score": 6.0,
+        "difficult words": 7147,
+        "flesch kincaid grade": 5.2,
+        "flesch reading ease": 82.65,
+        "gunning fog": 7.6000000000000005,
+        "linsear write formula": 17.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06809492924074417,
+        "subjectivity": 0.47237120583594877
+      },
+      "statistics": {
+        "average letter per word": 4.67,
+        "average sentence length": 14.0,
+        "average sentence per word": 0.07,
+        "characters": 315667,
+        "polysyllables": 1148,
+        "sentences": 4530,
+        "syllables": 88344.0,
+        "words": 67546
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Gentry -- England -- Fiction,Sisters -- Fiction,Social classes -- Fiction,England -- Social life and customs -- 19th century -- Fiction,England -- Fiction,Mate selection -- Fiction,Regency fiction,Inheritance and succession -- Fiction,Domestic fiction,Young women -- Fiction,Love stories",
+      "title": "Sense and Sensibility",
+      "type": "Text",
+      "author": {
+        "birth": 1775,
+        "death": 1817,
+        "name": "Austen, Jane"
+      },
+      "publication": {
+        "day": 25,
+        "full": "May 25, 2008",
+        "month": 5,
+        "month name": "May",
+        "year": 2008
+      }
+    },
+    "metadata": {
+      "downloads": 6503,
+      "id": 161,
+      "rank": 30,
+      "url": "https://www.gutenberg.org/ebooks/161",
+      "formats": {
+        "total": 8,
+        "types": "application/x-mobipocket-ebook,text/html; charset=iso-8859-1,text/plain,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,application/pdf"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 12.3,
+        "coleman liau index": 10.85,
+        "dale chall readability score": 5.9,
+        "difficult words": 9203,
+        "flesch kincaid grade": 9.1,
+        "flesch reading ease": 67.08,
+        "gunning fog": 10.4,
+        "linsear write formula": 13.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.131879813586973,
+        "subjectivity": 0.5325451309613446
+      },
+      "statistics": {
+        "average letter per word": 4.85,
+        "average sentence length": 21.0,
+        "average sentence per word": 0.05,
+        "characters": 574844,
+        "polysyllables": 3913,
+        "sentences": 5447,
+        "syllables": 167003.1,
+        "words": 118578
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "JC",
+      "languages": "en",
+      "subjects": "Political science -- Early works to 1800;State, The -- Early works to 1800",
+      "title": "Leviathan",
+      "type": "Text",
+      "author": {
+        "birth": 1588,
+        "death": 1679,
+        "name": "Hobbes, Thomas"
+      },
+      "publication": {
+        "day": 1,
+        "full": "May, 2002",
+        "month": 5,
+        "month name": "May",
+        "year": 2002
+      }
+    },
+    "metadata": {
+      "downloads": 6411,
+      "id": 3207,
+      "rank": 31,
+      "url": "https://www.gutenberg.org/ebooks/3207",
+      "formats": {
+        "total": 7,
+        "types": "text/plain,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 20.6,
+        "coleman liau index": 11.56,
+        "dale chall readability score": 6.72,
+        "difficult words": 16169,
+        "flesch kincaid grade": 15.8,
+        "flesch reading ease": 49.83,
+        "gunning fog": 17.2,
+        "linsear write formula": 11.0,
+        "smog index": 8.8
+      },
+      "sentiments": {
+        "polarity": 0.11616782697752301,
+        "subjectivity": 0.46430038311161786
+      },
+      "statistics": {
+        "average letter per word": 4.87,
+        "average sentence length": 38.0,
+        "average sentence per word": 0.03,
+        "characters": 1038638,
+        "polysyllables": 7741,
+        "sentences": 5581,
+        "syllables": 305930.7,
+        "words": 213304
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Self-experimentation in medicine -- Fiction,Psychological fiction,Multiple personality -- Fiction,Physicians -- Fiction,London (England) -- Fiction,Science fiction,Horror tales",
+      "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+      "type": "Text",
+      "author": {
+        "birth": 1850,
+        "death": 1894,
+        "name": "Stevenson, Robert Louis"
+      },
+      "publication": {
+        "day": 1,
+        "full": "October, 1992",
+        "month": 10,
+        "month name": "October",
+        "year": 1992
+      }
+    },
+    "metadata": {
+      "downloads": 6410,
+      "id": 42,
+      "rank": 32,
+      "url": "https://www.gutenberg.org/ebooks/42",
+      "formats": {
+        "total": 7,
+        "types": "text/html,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 11.0,
+        "coleman liau index": 9.63,
+        "dale chall readability score": 6.82,
+        "difficult words": 3485,
+        "flesch kincaid grade": 7.9,
+        "flesch reading ease": 75.54,
+        "gunning fog": 10.4,
+        "linsear write formula": 7.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06787933764993412,
+        "subjectivity": 0.4877173556522048
+      },
+      "statistics": {
+        "average letter per word": 4.64,
+        "average sentence length": 21.0,
+        "average sentence per word": 0.05,
+        "characters": 119352,
+        "polysyllables": 545,
+        "sentences": 1215,
+        "syllables": 34174.8,
+        "words": 25740
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR,PZ",
+      "languages": "en",
+      "subjects": "Treasure Island (Imaginary place) -- Fiction,Pirates -- Fiction,Treasure troves -- Fiction,Sea stories",
+      "title": "Treasure Island",
+      "type": "Text",
+      "author": {
+        "birth": 1850,
+        "death": 1894,
+        "name": "Stevenson, Robert Louis"
+      },
+      "publication": {
+        "day": 25,
+        "full": "February 25, 2006",
+        "month": 2,
+        "month name": "February",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 6396,
+      "id": 120,
+      "rank": 33,
+      "url": "https://www.gutenberg.org/ebooks/120",
+      "formats": {
+        "total": 8,
+        "types": "application/x-mobipocket-ebook,image/jpeg,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.2,
+        "coleman liau index": 8.88,
+        "dale chall readability score": 5.96,
+        "difficult words": 6192,
+        "flesch kincaid grade": 6.8,
+        "flesch reading ease": 78.59,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 18.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.07407747334028003,
+        "subjectivity": 0.47350471800100735
+      },
+      "statistics": {
+        "average letter per word": 4.51,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 307677,
+        "polysyllables": 782,
+        "sentences": 3625,
+        "syllables": 85782.6,
+        "words": 68267
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Revenge -- Fiction,Psychological fiction,Foundlings -- Fiction,Heathcliff (Fictitious character : Bront\u00eb) -- Fiction,Triangles (Interpersonal relations) -- Fiction,Rural families -- Fiction,Domestic fiction,Rejection (Psychology) -- Fiction,Yorkshire (England) -- Fiction,Love stories",
+      "title": "Wuthering Heights",
+      "type": "Text",
+      "author": {
+        "birth": 1818,
+        "death": 1848,
+        "name": "Bronte, Emily"
+      },
+      "publication": {
+        "day": 19,
+        "full": "April 19, 2007",
+        "month": 4,
+        "month name": "April",
+        "year": 2007
+      }
+    },
+    "metadata": {
+      "downloads": 6237,
+      "id": 768,
+      "rank": 34,
+      "url": "https://www.gutenberg.org/ebooks/768",
+      "formats": {
+        "total": 7,
+        "types": "text/html,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.9,
+        "coleman liau index": 10.09,
+        "dale chall readability score": 6.07,
+        "difficult words": 11639,
+        "flesch kincaid grade": 6.4,
+        "flesch reading ease": 79.6,
+        "gunning fog": 8.8,
+        "linsear write formula": 5.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.04585489516510218,
+        "subjectivity": 0.510068286883796
+      },
+      "statistics": {
+        "average letter per word": 4.77,
+        "average sentence length": 17.0,
+        "average sentence per word": 0.06,
+        "characters": 552364,
+        "polysyllables": 2750,
+        "sentences": 6524,
+        "syllables": 156315.6,
+        "words": 115874
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Africa -- Fiction,Psychological fiction,Imperialism -- Fiction,Trading posts -- Fiction,Europeans -- Africa -- Fiction,Degeneration -- fiction",
+      "title": "Heart of Darkness",
+      "type": "Text",
+      "author": {
+        "birth": 1857,
+        "death": 1924,
+        "name": "Conrad, Joseph"
+      },
+      "publication": {
+        "day": 1,
+        "full": "February 1995",
+        "month": 2,
+        "month name": "February",
+        "year": 1995
+      }
+    },
+    "metadata": {
+      "downloads": 5875,
+      "id": 219,
+      "rank": 35,
+      "url": "https://www.gutenberg.org/ebooks/219",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=us-ascii,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.0,
+        "coleman liau index": 9.8,
+        "dale chall readability score": 6.68,
+        "difficult words": 5407,
+        "flesch kincaid grade": 7.2,
+        "flesch reading ease": 72.16,
+        "gunning fog": 8.4,
+        "linsear write formula": 13.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.04901319630088766,
+        "subjectivity": 0.5026182298220377
+      },
+      "statistics": {
+        "average letter per word": 4.72,
+        "average sentence length": 16.0,
+        "average sentence per word": 0.06,
+        "characters": 178939,
+        "polysyllables": 1128,
+        "sentences": 2309,
+        "syllables": 51631.2,
+        "words": 37902
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PQ",
+      "languages": "en",
+      "subjects": "Adventure stories;Revenge -- Fiction;France -- History -- 19th century -- Fiction;Pirates -- Fiction;Historical fiction;Prisoners -- Fiction;Dant\u00e8s, Edmond (Fictitious character) -- Fiction",
+      "title": "The Count of Monte Cristo, Illustrated",
+      "type": "Text",
+      "author": {
+        "birth": 1802,
+        "death": 1870,
+        "name": "Dumas, Alexandre"
+      },
+      "publication": {
+        "day": 1,
+        "full": "January, 1998",
+        "month": 1,
+        "month name": "January",
+        "year": 1998
+      }
+    },
+    "metadata": {
+      "downloads": 5861,
+      "id": 1184,
+      "rank": 36,
+      "url": "https://www.gutenberg.org/ebooks/1184",
+      "formats": {
+        "total": 7,
+        "types": "application/x-mobipocket-ebook,image/jpeg,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.8,
+        "coleman liau index": 11.14,
+        "dale chall readability score": 5.51,
+        "difficult words": 28477,
+        "flesch kincaid grade": 7.9,
+        "flesch reading ease": 70.13,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 13.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.09324194609829525,
+        "subjectivity": 0.4975364718118205
+      },
+      "statistics": {
+        "average letter per word": 4.9,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 2248795,
+        "polysyllables": 13018,
+        "sentences": 25116,
+        "syllables": 638292.6,
+        "words": 459021
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Fantasy fiction;Satire;Voyages, Imaginary -- Early works to 1800;Travelers -- Fiction;Gulliver, Lemuel (Fictitious character) -- Fiction",
+      "title": "Gulliver's Travels into Several Remote Nations of the World",
+      "type": "Text",
+      "author": {
+        "birth": 1667,
+        "death": 1745,
+        "name": "Swift, Jonathan"
+      },
+      "publication": {
+        "day": 15,
+        "full": "June 15, 2009",
+        "month": 6,
+        "month name": "June",
+        "year": 2009
+      }
+    },
+    "metadata": {
+      "downloads": 5752,
+      "id": 829,
+      "rank": 37,
+      "url": "https://www.gutenberg.org/ebooks/829",
+      "formats": {
+        "total": 6,
+        "types": "text/html,text/plain; charset=utf-8,text/plain; charset=us-ascii,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 19.3,
+        "coleman liau index": 10.63,
+        "dale chall readability score": 6.89,
+        "difficult words": 9363,
+        "flesch kincaid grade": 15.4,
+        "flesch reading ease": 50.84,
+        "gunning fog": 16.8,
+        "linsear write formula": 4.0,
+        "smog index": 8.8
+      },
+      "sentiments": {
+        "polarity": 0.11480158865025024,
+        "subjectivity": 0.47662289873120817
+      },
+      "statistics": {
+        "average letter per word": 4.71,
+        "average sentence length": 37.0,
+        "average sentence per word": 0.03,
+        "characters": 491558,
+        "polysyllables": 2822,
+        "sentences": 2818,
+        "syllables": 144955.8,
+        "words": 104293
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PS",
+      "languages": "en",
+      "subjects": "Louisiana -- Social life and customs -- Fiction,Women -- Louisiana -- New Orleans -- Social conditions -- Fiction,New Orleans (La.) -- Fiction,Self-actualization (Psychology) -- Fiction,Adultery -- Fiction",
+      "title": "The Awakening, and Selected Short Stories",
+      "type": "Text",
+      "author": {
+        "birth": 1850,
+        "death": 1904,
+        "name": "Chopin, Kate"
+      },
+      "publication": {
+        "day": 11,
+        "full": "March 11, 2006",
+        "month": 3,
+        "month name": "March",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 5702,
+      "id": 160,
+      "rank": 38,
+      "url": "https://www.gutenberg.org/ebooks/160",
+      "formats": {
+        "total": 7,
+        "types": "text/plain,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.8,
+        "coleman liau index": 10.08,
+        "dale chall readability score": 6.1,
+        "difficult words": 6963,
+        "flesch kincaid grade": 6.8,
+        "flesch reading ease": 73.17,
+        "gunning fog": 8.0,
+        "linsear write formula": 18.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.0958378068054441,
+        "subjectivity": 0.4823495632383955
+      },
+      "statistics": {
+        "average letter per word": 4.82,
+        "average sentence length": 15.0,
+        "average sentence per word": 0.07,
+        "characters": 308607,
+        "polysyllables": 1688,
+        "sentences": 4264,
+        "syllables": 87984.0,
+        "words": 63991
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PZ,PR",
+      "languages": "en",
+      "subjects": "Peter Pan (Fictitious character) -- Fiction,Fantasy,Fairies -- Juvenile fiction,Never-Never Land (Imaginary place) -- Fiction,Pirates -- Juvenile fiction",
+      "title": "Peter Pan",
+      "type": "Text",
+      "author": {
+        "birth": 1860,
+        "death": 1937,
+        "name": "Barrie, J. M. (James Matthew)"
+      },
+      "publication": {
+        "day": 1,
+        "full": "July, 1991",
+        "month": 7,
+        "month name": "July",
+        "year": 1991
+      }
+    },
+    "metadata": {
+      "downloads": 5657,
+      "id": 16,
+      "rank": 39,
+      "url": "https://www.gutenberg.org/ebooks/16",
+      "formats": {
+        "total": 7,
+        "types": "text/plain,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.2,
+        "coleman liau index": 9.34,
+        "dale chall readability score": 5.91,
+        "difficult words": 4608,
+        "flesch kincaid grade": 5.6,
+        "flesch reading ease": 81.63,
+        "gunning fog": 8.0,
+        "linsear write formula": 12.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.0908218570698009,
+        "subjectivity": 0.5243416869206348
+      },
+      "statistics": {
+        "average letter per word": 4.64,
+        "average sentence length": 15.0,
+        "average sentence per word": 0.06,
+        "characters": 220012,
+        "polysyllables": 686,
+        "sentences": 3054,
+        "syllables": 60405.3,
+        "words": 47437
+      }
+    }
+  },
+{
+    "bibliography": {
+      "congress classifications": "PT",
+      "languages": "en",
+      "subjects": "Buddhist philosophy -- Fiction,Religious fiction,Buddhism -- Fiction,India -- Fiction,Gautama Buddha -- Fiction",
+      "title": "Siddhartha",
+      "type": "Text",
+      "author": {
+        "birth": 1877,
+        "death": 1962,
+        "name": "Hesse, Hermann"
+      },
+      "publication": {
+        "day": 6,
+        "full": "April 6, 2008",
+        "month": 4,
+        "month name": "April",
+        "year": 2008
+      }
+    },
+    "metadata": {
+      "downloads": 5483,
+      "id": 2500,
+      "rank": 40,
+      "url": "https://www.gutenberg.org/ebooks/2500",
+      "formats": {
+        "total": 8,
+        "types": "text/plain; charset=us-ascii,application/x-mobipocket-ebook,text/html; charset=iso-8859-1,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 11.5,
+        "coleman liau index": 10.04,
+        "dale chall readability score": 6.08,
+        "difficult words": 3481,
+        "flesch kincaid grade": 9.1,
+        "flesch reading ease": 67.08,
+        "gunning fog": 10.4,
+        "linsear write formula": 17.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.15748246437739877,
+        "subjectivity": 0.5129865197688851
+      },
+      "statistics": {
+        "average letter per word": 4.71,
+        "average sentence length": 21.0,
+        "average sentence per word": 0.05,
+        "characters": 184183,
+        "polysyllables": 817,
+        "sentences": 1820,
+        "syllables": 52859.7,
+        "words": 39139
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PA,JC",
+      "languages": "en",
+      "subjects": "Utopias -- Early works to 1800,Justice -- Early works to 1800,Political science -- Early works to 1800,Classical literature",
+      "title": "The Republic",
+      "type": "Text",
+      "author": {
+        "birth": -428,
+        "death": -348,
+        "name": "Plato"
+      },
+      "publication": {
+        "day": 1,
+        "full": "October, 1998",
+        "month": 10,
+        "month name": "October",
+        "year": 1998
+      }
+    },
+    "metadata": {
+      "downloads": 5360,
+      "id": 1497,
+      "rank": 41,
+      "url": "https://www.gutenberg.org/ebooks/1497",
+      "formats": {
+        "total": 7,
+        "types": "text/plain,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 14.3,
+        "coleman liau index": 10.45,
+        "dale chall readability score": 6.01,
+        "difficult words": 14787,
+        "flesch kincaid grade": 11.1,
+        "flesch reading ease": 62.01,
+        "gunning fog": 12.4,
+        "linsear write formula": 14.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.14313108039777567,
+        "subjectivity": 0.5215148170441171
+      },
+      "statistics": {
+        "average letter per word": 4.73,
+        "average sentence length": 26.0,
+        "average sentence per word": 0.04,
+        "characters": 1022560,
+        "polysyllables": 7886,
+        "sentences": 8025,
+        "syllables": 302949.9,
+        "words": 216169
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "E300",
+      "languages": "en",
+      "subjects": "Statesmen -- United States -- Biography;Franklin, Benjamin, 1706-1790",
+      "title": "Autobiography of Benjamin Franklin",
+      "type": "Text",
+      "author": {
+        "birth": 1706,
+        "death": 1790,
+        "name": "Franklin, Benjamin"
+      },
+      "publication": {
+        "day": 28,
+        "full": "December 28, 2006",
+        "month": 12,
+        "month name": "December",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 5169,
+      "id": 20203,
+      "rank": 42,
+      "url": "https://www.gutenberg.org/ebooks/20203",
+      "formats": {
+        "total": 9,
+        "types": "image/jpeg,text/html; charset=iso-8859-1,text/plain,text/plain; charset=iso-8859-1,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 15.7,
+        "coleman liau index": 11.38,
+        "dale chall readability score": 6.89,
+        "difficult words": 8971,
+        "flesch kincaid grade": 11.8,
+        "flesch reading ease": 59.98,
+        "gunning fog": 13.200000000000001,
+        "linsear write formula": 7.5,
+        "smog index": 8.8
+      },
+      "sentiments": {
+        "polarity": 0.14349507113184382,
+        "subjectivity": 0.4669560103725871
+      },
+      "statistics": {
+        "average letter per word": 4.89,
+        "average sentence length": 28.0,
+        "average sentence per word": 0.04,
+        "characters": 371844,
+        "polysyllables": 2885,
+        "sentences": 2699,
+        "syllables": 106481.7,
+        "words": 75983
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Atlantic Ocean -- Fiction;Crusoe, Robinson (Fictitious character) -- Fiction;Adventure stories;Shipwreck survival -- Fiction;Castaways -- Fiction;Islands -- Fiction",
+      "title": "The Life and Adventures of Robinson Crusoe",
+      "type": "Text",
+      "author": {
+        "birth": 0,
+        "death": 1731,
+        "name": "Defoe, Daniel"
+      },
+      "publication": {
+        "day": 6,
+        "full": "April 6, 2010",
+        "month": 4,
+        "month name": "April",
+        "year": 2010
+      }
+    },
+    "metadata": {
+      "downloads": 5140,
+      "id": 521,
+      "rank": 43,
+      "url": "https://www.gutenberg.org/ebooks/521",
+      "formats": {
+        "total": 7,
+        "types": "text/html,text/plain; charset=utf-8,text/plain; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 24.0,
+        "coleman liau index": 8.55,
+        "dale chall readability score": 7.0,
+        "difficult words": 6734,
+        "flesch kincaid grade": 19.3,
+        "flesch reading ease": 46.11,
+        "gunning fog": 22.0,
+        "linsear write formula": 7.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.10530021393955503,
+        "subjectivity": 0.47691803683950124
+      },
+      "statistics": {
+        "average letter per word": 4.3,
+        "average sentence length": 50.0,
+        "average sentence per word": 0.02,
+        "characters": 519352,
+        "polysyllables": 2113,
+        "sentences": 2396,
+        "syllables": 153371.7,
+        "words": 120813
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Pastoral poetry,English poetry -- 18th century",
+      "title": "Songs of Innocence, and Songs of Experience",
+      "type": "Text",
+      "author": {
+        "birth": 1757,
+        "death": 1827,
+        "name": "Blake, William"
+      },
+      "publication": {
+        "day": 25,
+        "full": "December 25, 2008",
+        "month": 12,
+        "month name": "December",
+        "year": 2008
+      }
+    },
+    "metadata": {
+      "downloads": 5115,
+      "id": 1934,
+      "rank": 44,
+      "url": "https://www.gutenberg.org/ebooks/1934",
+      "formats": {
+        "total": 7,
+        "types": "text/html,text/plain; charset=utf-8,text/plain; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 11.2,
+        "coleman liau index": 10.68,
+        "dale chall readability score": 6.52,
+        "difficult words": 690,
+        "flesch kincaid grade": 6.0,
+        "flesch reading ease": 86.03,
+        "gunning fog": 9.600000000000001,
+        "linsear write formula": 13.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.13704874290797575,
+        "subjectivity": 0.5125445559491018
+      },
+      "statistics": {
+        "average letter per word": 4.82,
+        "average sentence length": 19.0,
+        "average sentence per word": 0.05,
+        "characters": 27028,
+        "polysyllables": 24,
+        "sentences": 283,
+        "syllables": 6803.1,
+        "words": 5602
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PQ",
+      "languages": "en",
+      "subjects": "French essays -- Translations into English",
+      "title": "Essays of Michel de Montaigne \u2014 Complete",
+      "type": "Text",
+      "author": {
+        "birth": 1533,
+        "death": 1592,
+        "name": "Montaigne, Michel de"
+      },
+      "publication": {
+        "day": 17,
+        "full": "September 17, 2006",
+        "month": 9,
+        "month name": "September",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 5056,
+      "id": 3600,
+      "rank": 45,
+      "url": "https://www.gutenberg.org/ebooks/3600",
+      "formats": {
+        "total": 8,
+        "types": "application/x-mobipocket-ebook,image/jpeg,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 20.5,
+        "coleman liau index": 11.09,
+        "dale chall readability score": 6.61,
+        "difficult words": 36163,
+        "flesch kincaid grade": 15.8,
+        "flesch reading ease": 49.83,
+        "gunning fog": 17.2,
+        "linsear write formula": 11.0,
+        "smog index": 8.8
+      },
+      "sentiments": {
+        "polarity": 0.1433959400389251,
+        "subjectivity": 0.5253461387990033
+      },
+      "statistics": {
+        "average letter per word": 4.79,
+        "average sentence length": 38.0,
+        "average sentence per word": 0.03,
+        "characters": 2518187,
+        "polysyllables": 17948,
+        "sentences": 13566,
+        "syllables": 745985.7,
+        "words": 525749
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PQ",
+      "languages": "en",
+      "subjects": "Epic poetry, Italian -- Translations into English;Italian poetry -- To 1400 -- Translations into English",
+      "title": "The Divine Comedy by Dante, Illustrated",
+      "type": "Text",
+      "author": {
+        "birth": 1265,
+        "death": 1321,
+        "name": "Dante Alighieri"
+      },
+      "publication": {
+        "day": 1,
+        "full": "September, 2005",
+        "month": 9,
+        "month name": "September",
+        "year": 2005
+      }
+    },
+    "metadata": {
+      "downloads": 4973,
+      "id": 8800,
+      "rank": 46,
+      "url": "https://www.gutenberg.org/ebooks/8800",
+      "formats": {
+        "total": 8,
+        "types": "image/jpeg,text/plain; charset=us-ascii,text/plain,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=iso-8859-1,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 13.9,
+        "coleman liau index": 11.09,
+        "dale chall readability score": 6.62,
+        "difficult words": 12004,
+        "flesch kincaid grade": 9.5,
+        "flesch reading ease": 71.48,
+        "gunning fog": 12.0,
+        "linsear write formula": 26.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.10851235681394195,
+        "subjectivity": 0.49442483431831064
+      },
+      "statistics": {
+        "average letter per word": 4.84,
+        "average sentence length": 25.0,
+        "average sentence per word": 0.04,
+        "characters": 525296,
+        "polysyllables": 931,
+        "sentences": 4318,
+        "syllables": 138464.1,
+        "words": 108513
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Ghost stories;Scrooge, Ebenezer (Fictitious character) -- Fiction;Poor families -- Fiction;Christmas stories;London (England) -- Fiction;Misers -- Fiction;Sick children -- Fiction",
+      "title": "A Christmas Carol in Prose; Being a Ghost Story of Christmas",
+      "type": "Text",
+      "author": {
+        "birth": 1812,
+        "death": 1870,
+        "name": "Dickens, Charles"
+      },
+      "publication": {
+        "day": 11,
+        "full": "August 11, 2004",
+        "month": 8,
+        "month name": "August",
+        "year": 2004
+      }
+    },
+    "metadata": {
+      "downloads": 4741,
+      "id": 46,
+      "rank": 47,
+      "url": "https://www.gutenberg.org/ebooks/46",
+      "formats": {
+        "total": 9,
+        "types": "image/jpeg,text/plain; charset=us-ascii,application/x-mobipocket-ebook,text/html; charset=iso-8859-1,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=iso-8859-1,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.4,
+        "coleman liau index": 10.21,
+        "dale chall readability score": 6.46,
+        "difficult words": 3668,
+        "flesch kincaid grade": 6.0,
+        "flesch reading ease": 80.62,
+        "gunning fog": 8.4,
+        "linsear write formula": 13.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.10297132260911637,
+        "subjectivity": 0.4994608844449129
+      },
+      "statistics": {
+        "average letter per word": 4.79,
+        "average sentence length": 16.0,
+        "average sentence per word": 0.06,
+        "characters": 136753,
+        "polysyllables": 450,
+        "sentences": 1716,
+        "syllables": 37429.2,
+        "words": 28541
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "England -- Fiction;Detective and mystery stories;Holmes, Sherlock (Fictitious character) -- Fiction;Private investigators -- England -- Fiction",
+      "title": "A Study in Scarlet",
+      "type": "Text",
+      "author": {
+        "birth": 1859,
+        "death": 1930,
+        "name": "Doyle, Arthur Conan"
+      },
+      "publication": {
+        "day": 1,
+        "full": "April, 1995",
+        "month": 4,
+        "month name": "April",
+        "year": 1995
+      }
+    },
+    "metadata": {
+      "downloads": 4703,
+      "id": 244,
+      "rank": 48,
+      "url": "https://www.gutenberg.org/ebooks/244",
+      "formats": {
+        "total": 8,
+        "types": "text/plain; charset=us-ascii,text/plain,text/plain; charset=iso-8859-1,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=iso-8859-1,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.0,
+        "coleman liau index": 9.8,
+        "dale chall readability score": 6.4,
+        "difficult words": 5471,
+        "flesch kincaid grade": 7.2,
+        "flesch reading ease": 72.16,
+        "gunning fog": 8.4,
+        "linsear write formula": 11.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06919942616516865,
+        "subjectivity": 0.47509671037368656
+      },
+      "statistics": {
+        "average letter per word": 4.72,
+        "average sentence length": 16.0,
+        "average sentence per word": 0.06,
+        "characters": 207047,
+        "polysyllables": 1127,
+        "sentences": 2669,
+        "syllables": 59502.6,
+        "words": 43863
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Jungles -- Fiction;Jungle animals -- Fiction;Feral children -- Fiction;Mowgli (Fictitious character) -- Fiction;Adventure stories, English;Animals -- Fiction;Short stories;India -- Fiction",
+      "title": "The Jungle Book",
+      "type": "Text",
+      "author": {
+        "birth": 1865,
+        "death": 1936,
+        "name": "Kipling, Rudyard"
+      },
+      "publication": {
+        "day": 16,
+        "full": "January 16, 2006",
+        "month": 1,
+        "month name": "January",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 4526,
+      "id": 236,
+      "rank": 49,
+      "url": "https://www.gutenberg.org/ebooks/236",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=us-ascii,text/plain; charset=us-ascii,text/plain,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.8,
+        "coleman liau index": 8.7,
+        "dale chall readability score": 5.86,
+        "difficult words": 4450,
+        "flesch kincaid grade": 5.2,
+        "flesch reading ease": 88.06,
+        "gunning fog": 8.8,
+        "linsear write formula": 9.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.03740099163602172,
+        "subjectivity": 0.4545637425100307
+      },
+      "statistics": {
+        "average letter per word": 4.53,
+        "average sentence length": 17.0,
+        "average sentence per word": 0.06,
+        "characters": 230331,
+        "polysyllables": 484,
+        "sentences": 2873,
+        "syllables": 63501.3,
+        "words": 50835
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PG",
+      "languages": "en",
+      "subjects": "Saint Petersburg (Russia) -- Fiction,Russia -- Fiction,Detective and mystery stories,Psychological fiction",
+      "title": "Crime and Punishment",
+      "type": "Text",
+      "author": {
+        "birth": 1821,
+        "death": 1881,
+        "name": "Dostoyevsky, Fyodor"
+      },
+      "publication": {
+        "day": 28,
+        "full": "March 28, 2006",
+        "month": 3,
+        "month name": "March",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 4483,
+      "id": 2554,
+      "rank": 50,
+      "url": "https://www.gutenberg.org/ebooks/2554",
+      "formats": {
+        "total": 8,
+        "types": "text/plain; charset=us-ascii,application/x-mobipocket-ebook,text/plain; charset=iso-8859-1,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=iso-8859-1,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 7.9,
+        "coleman liau index": 9.79,
+        "dale chall readability score": 5.39,
+        "difficult words": 14257,
+        "flesch kincaid grade": 6.0,
+        "flesch reading ease": 75.2,
+        "gunning fog": 7.2,
+        "linsear write formula": 8.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.046716302142544165,
+        "subjectivity": 0.503362543913968
+      },
+      "statistics": {
+        "average letter per word": 4.77,
+        "average sentence length": 13.0,
+        "average sentence per word": 0.07,
+        "characters": 971506,
+        "polysyllables": 7095,
+        "sentences": 14828,
+        "syllables": 278055.9,
+        "words": 203492
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PA",
+      "languages": "en",
+      "subjects": "Classical literature;Epic poetry, Greek -- Translations into English;Achilles (Mythological character) -- Poetry;Trojan War -- Poetry",
+      "title": "The Iliad",
+      "type": "Text",
+      "author": {
+        "birth": -750,
+        "death": -650,
+        "name": "Homer"
+      },
+      "publication": {
+        "day": 1,
+        "full": "September 2006",
+        "month": 9,
+        "month name": "September",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 4443,
+      "id": 6130,
+      "rank": 51,
+      "url": "https://www.gutenberg.org/ebooks/6130",
+      "formats": {
+        "total": 11,
+        "types": "application/x-mobipocket-ebook,application/prs.tei,text/plain; charset=us-ascii,text/html; charset=utf-8,text/plain,application/octet-stream,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,application/pdf"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 14.7,
+        "coleman liau index": 12.31,
+        "dale chall readability score": 6.17,
+        "difficult words": 16082,
+        "flesch kincaid grade": 9.1,
+        "flesch reading ease": 72.5,
+        "gunning fog": 11.600000000000001,
+        "linsear write formula": 5.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.10970939288906147,
+        "subjectivity": 0.5226854109617926
+      },
+      "statistics": {
+        "average letter per word": 5.05,
+        "average sentence length": 24.0,
+        "average sentence per word": 0.04,
+        "characters": 957200,
+        "polysyllables": 2876,
+        "sentences": 7692,
+        "syllables": 252473.4,
+        "words": 189422
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "B",
+      "languages": "en",
+      "subjects": "Philosophy, German;Ethics",
+      "title": "Beyond Good and Evil",
+      "type": "Text",
+      "author": {
+        "birth": 1844,
+        "death": 1900,
+        "name": "Nietzsche, Friedrich Wilhelm"
+      },
+      "publication": {
+        "day": 1,
+        "full": "August, 2003",
+        "month": 8,
+        "month name": "August",
+        "year": 2003
+      }
+    },
+    "metadata": {
+      "downloads": 4347,
+      "id": 4363,
+      "rank": 52,
+      "url": "https://www.gutenberg.org/ebooks/4363",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=us-ascii,text/plain; charset=us-ascii,text/plain,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 21.0,
+        "coleman liau index": 13.94,
+        "dale chall readability score": 7.92,
+        "difficult words": 10092,
+        "flesch kincaid grade": 16.9,
+        "flesch reading ease": 35.95,
+        "gunning fog": 16.0,
+        "linsear write formula": 11.0,
+        "smog index": 11.2
+      },
+      "sentiments": {
+        "polarity": 0.11232784809361654,
+        "subjectivity": 0.5330417084098305
+      },
+      "statistics": {
+        "average letter per word": 5.28,
+        "average sentence length": 35.0,
+        "average sentence per word": 0.03,
+        "characters": 330833,
+        "polysyllables": 4344,
+        "sentences": 1779,
+        "syllables": 97875.9,
+        "words": 62652
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PQ",
+      "languages": "en",
+      "subjects": "Satire,Optimism -- Fiction",
+      "title": "Candide",
+      "type": "Text",
+      "author": {
+        "birth": 1694,
+        "death": 1778,
+        "name": "Voltaire"
+      },
+      "publication": {
+        "day": 27,
+        "full": "November 27, 2006",
+        "month": 11,
+        "month name": "November",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 4339,
+      "id": 19942,
+      "rank": 53,
+      "url": "https://www.gutenberg.org/ebooks/19942",
+      "formats": {
+        "total": 8,
+        "types": "text/html; charset=iso-8859-1,text/plain,text/plain; charset=iso-8859-1,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 11.4,
+        "coleman liau index": 11.02,
+        "dale chall readability score": 6.78,
+        "difficult words": 4984,
+        "flesch kincaid grade": 8.3,
+        "flesch reading ease": 69.11,
+        "gunning fog": 9.600000000000001,
+        "linsear write formula": 10.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.1460440424213166,
+        "subjectivity": 0.5073950483530955
+      },
+      "statistics": {
+        "average letter per word": 4.88,
+        "average sentence length": 19.0,
+        "average sentence per word": 0.05,
+        "characters": 174417,
+        "polysyllables": 972,
+        "sentences": 1815,
+        "syllables": 49873.5,
+        "words": 35756
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "TJ",
+      "languages": "en",
+      "subjects": "Steam-boilers, Water-tube",
+      "title": "Steam, Its Generation and Use",
+      "type": "Text",
+      "author": {
+        "birth": 0,
+        "death": 0,
+        "name": "Babcock & Wilcox Company"
+      },
+      "publication": {
+        "day": 18,
+        "full": "September 18, 2007",
+        "month": 9,
+        "month name": "September",
+        "year": 2007
+      }
+    },
+    "metadata": {
+      "downloads": 4297,
+      "id": 22657,
+      "rank": 54,
+      "url": "https://www.gutenberg.org/ebooks/22657",
+      "formats": {
+        "total": 9,
+        "types": "application/x-mobipocket-ebook,text/html,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=iso-8859-1,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 14.8,
+        "coleman liau index": 15.14,
+        "dale chall readability score": 5.54,
+        "difficult words": 8281,
+        "flesch kincaid grade": 8.3,
+        "flesch reading ease": 69.11,
+        "gunning fog": 9.600000000000001,
+        "linsear write formula": 5.5,
+        "smog index": 8.8
+      },
+      "sentiments": {
+        "polarity": 0.06752817391808001,
+        "subjectivity": 0.4375601575874635
+      },
+      "statistics": {
+        "average letter per word": 5.59,
+        "average sentence length": 19.0,
+        "average sentence per word": 0.05,
+        "characters": 760404,
+        "polysyllables": 8364,
+        "sentences": 6885,
+        "syllables": 189327.6,
+        "words": 135920
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Linguistics teachers -- Drama,London (England) -- Drama,Flower vending -- Drama,Social classes -- Drama,Comedies,Speech and social status -- Drama",
+      "title": "Pygmalion",
+      "type": "Text",
+      "author": {
+        "birth": 1856,
+        "death": 1950,
+        "name": "Shaw, Bernard"
+      },
+      "publication": {
+        "day": 1,
+        "full": "March, 2003",
+        "month": 3,
+        "month name": "March",
+        "year": 2003
+      }
+    },
+    "metadata": {
+      "downloads": 4287,
+      "id": 3825,
+      "rank": 55,
+      "url": "https://www.gutenberg.org/ebooks/3825",
+      "formats": {
+        "total": 6,
+        "types": "text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/rdf+xml,application/epub+zip,text/html; charset=iso-8859-1,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 7.5,
+        "coleman liau index": 9.9,
+        "dale chall readability score": 6.13,
+        "difficult words": 4041,
+        "flesch kincaid grade": 4.4,
+        "flesch reading ease": 84.68,
+        "gunning fog": 6.800000000000001,
+        "linsear write formula": 6.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.07226004796407746,
+        "subjectivity": 0.5083710206194251
+      },
+      "statistics": {
+        "average letter per word": 4.84,
+        "average sentence length": 12.0,
+        "average sentence per word": 0.08,
+        "characters": 162315,
+        "polysyllables": 877,
+        "sentences": 2747,
+        "syllables": 45265.5,
+        "words": 33552
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "English drama -- Early modern and Elizabethan, 1500-1600",
+      "title": "The Complete Works of William Shakespeare",
+      "type": "Text",
+      "author": {
+        "birth": 1564,
+        "death": 1616,
+        "name": "Shakespeare, William"
+      },
+      "publication": {
+        "day": 1,
+        "full": "January, 1994",
+        "month": 1,
+        "month name": "January",
+        "year": 1994
+      }
+    },
+    "metadata": {
+      "downloads": 4166,
+      "id": 100,
+      "rank": 56,
+      "url": "https://www.gutenberg.org/ebooks/100",
+      "formats": {
+        "total": 6,
+        "types": "text/html,text/plain; charset=us-ascii,text/plain,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 7.9,
+        "coleman liau index": 9.62,
+        "dale chall readability score": 5.15,
+        "difficult words": 45905,
+        "flesch kincaid grade": 5.2,
+        "flesch reading ease": 82.65,
+        "gunning fog": 7.6000000000000005,
+        "linsear write formula": 52.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.1612295008427009,
+        "subjectivity": 0.5319494401471125
+      },
+      "statistics": {
+        "average letter per word": 4.74,
+        "average sentence length": 14.0,
+        "average sentence per word": 0.07,
+        "characters": 4183870,
+        "polysyllables": 10391,
+        "sentences": 62662,
+        "syllables": 1138463.1,
+        "words": 882996
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Criminals -- Fiction,Orphans -- Fiction,Bildungsromans,London (England) -- Fiction,Kidnapping victims -- Fiction,Boys -- Fiction",
+      "title": "Oliver Twist",
+      "type": "Text",
+      "author": {
+        "birth": 1812,
+        "death": 1870,
+        "name": "Dickens, Charles"
+      },
+      "publication": {
+        "day": 1,
+        "full": "November, 1996",
+        "month": 11,
+        "month name": "November",
+        "year": 1996
+      }
+    },
+    "metadata": {
+      "downloads": 4066,
+      "id": 730,
+      "rank": 57,
+      "url": "https://www.gutenberg.org/ebooks/730",
+      "formats": {
+        "total": 6,
+        "types": "text/html; charset=iso-8859-1,text/plain,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.5,
+        "coleman liau index": 10.67,
+        "dale chall readability score": 5.85,
+        "difficult words": 13659,
+        "flesch kincaid grade": 6.4,
+        "flesch reading ease": 79.6,
+        "gunning fog": 8.8,
+        "linsear write formula": 27.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.08524467195611543,
+        "subjectivity": 0.4930866916052946
+      },
+      "statistics": {
+        "average letter per word": 4.87,
+        "average sentence length": 17.0,
+        "average sentence per word": 0.06,
+        "characters": 768704,
+        "polysyllables": 3916,
+        "sentences": 8818,
+        "syllables": 212969.7,
+        "words": 157966
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Africa -- Fiction,Psychological fiction,Imperialism -- Fiction,Trading posts -- Fiction,Europeans -- Africa -- Fiction,Degeneration -- fiction",
+      "title": "Heart of Darkness",
+      "type": "Text",
+      "author": {
+        "birth": 1857,
+        "death": 1924,
+        "name": "Conrad, Joseph"
+      },
+      "publication": {
+        "day": 9,
+        "full": "January 9, 2006",
+        "month": 1,
+        "month name": "January",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 3957,
+      "id": 526,
+      "rank": 58,
+      "url": "https://www.gutenberg.org/ebooks/526",
+      "formats": {
+        "total": 6,
+        "types": "text/html,text/plain; charset=us-ascii,text/plain,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.0,
+        "coleman liau index": 9.8,
+        "dale chall readability score": 6.68,
+        "difficult words": 5410,
+        "flesch kincaid grade": 7.2,
+        "flesch reading ease": 72.16,
+        "gunning fog": 8.4,
+        "linsear write formula": 13.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.04865516543463206,
+        "subjectivity": 0.5031388547876838
+      },
+      "statistics": {
+        "average letter per word": 4.72,
+        "average sentence length": 16.0,
+        "average sentence per word": 0.06,
+        "characters": 179060,
+        "polysyllables": 1128,
+        "sentences": 2309,
+        "syllables": 51667.2,
+        "words": 37926
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "English literature -- History and criticism",
+      "title": "English Literature: Its History and Its Significance for the Life of the English-Speaking World",
+      "type": "Text",
+      "author": {
+        "birth": 1867,
+        "death": 1952,
+        "name": "Long, William J. (William Joseph)"
+      },
+      "publication": {
+        "day": 6,
+        "full": "January 6, 2004",
+        "month": 1,
+        "month name": "January",
+        "year": 2004
+      }
+    },
+    "metadata": {
+      "downloads": 3933,
+      "id": 10609,
+      "rank": 59,
+      "url": "https://www.gutenberg.org/ebooks/10609",
+      "formats": {
+        "total": 8,
+        "types": "text/html; charset=iso-8859-1,text/plain,text/plain; charset=iso-8859-1,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 15.0,
+        "coleman liau index": 13.12,
+        "dale chall readability score": 6.31,
+        "difficult words": 20473,
+        "flesch kincaid grade": 11.1,
+        "flesch reading ease": 56.59,
+        "gunning fog": 11.200000000000001,
+        "linsear write formula": 19.0,
+        "smog index": 8.8
+      },
+      "sentiments": {
+        "polarity": 0.161227693729917,
+        "subjectivity": 0.47428246508787136
+      },
+      "statistics": {
+        "average letter per word": 5.19,
+        "average sentence length": 23.0,
+        "average sentence per word": 0.04,
+        "characters": 1095489,
+        "polysyllables": 9421,
+        "sentences": 8806,
+        "syllables": 313941.6,
+        "words": 210885
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PS",
+      "languages": "en",
+      "subjects": "Short stories;United States -- History -- Civil War, 1861-1865 -- Fiction;Prisoners -- Fiction",
+      "title": "An Occurrence at Owl Creek Bridge",
+      "type": "Text",
+      "author": {
+        "birth": 1842,
+        "death": 1913,
+        "name": "Bierce, Ambrose"
+      },
+      "publication": {
+        "day": 19,
+        "full": "March 19, 2008",
+        "month": 3,
+        "month name": "March",
+        "year": 2008
+      }
+    },
+    "metadata": {
+      "downloads": 3850,
+      "id": 375,
+      "rank": 60,
+      "url": "https://www.gutenberg.org/ebooks/375",
+      "formats": {
+        "total": 7,
+        "types": "text/plain; charset=us-ascii,text/plain,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=iso-8859-1,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.8,
+        "coleman liau index": 10.91,
+        "dale chall readability score": 7.65,
+        "difficult words": 740,
+        "flesch kincaid grade": 7.9,
+        "flesch reading ease": 70.13,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 10.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.05319318393470936,
+        "subjectivity": 0.47741535018653686
+      },
+      "statistics": {
+        "average letter per word": 4.86,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 18193,
+        "polysyllables": 102,
+        "sentences": 200,
+        "syllables": 5162.4,
+        "words": 3744
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "JC",
+      "languages": "en",
+      "subjects": "Toleration -- Early works to 1800,Liberty -- Early works to 1800,Political science -- Early works to 1800",
+      "title": "Second Treatise of Government",
+      "type": "Text",
+      "author": {
+        "birth": 1632,
+        "death": 1704,
+        "name": "Locke, John"
+      },
+      "publication": {
+        "day": 1,
+        "full": "January, 2005",
+        "month": 1,
+        "month name": "January",
+        "year": 2005
+      }
+    },
+    "metadata": {
+      "downloads": 3842,
+      "id": 7370,
+      "rank": 61,
+      "url": "https://www.gutenberg.org/ebooks/7370",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=iso-8859-1,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 27.9,
+        "coleman liau index": 10.98,
+        "dale chall readability score": 7.64,
+        "difficult words": 4737,
+        "flesch kincaid grade": 22.0,
+        "flesch reading ease": 33.59,
+        "gunning fog": 23.6,
+        "linsear write formula": 7.0,
+        "smog index": 8.8
+      },
+      "sentiments": {
+        "polarity": 0.1282687278468411,
+        "subjectivity": 0.5010064127308006
+      },
+      "statistics": {
+        "average letter per word": 4.72,
+        "average sentence length": 54.0,
+        "average sentence per word": 0.02,
+        "characters": 266846,
+        "polysyllables": 2015,
+        "sentences": 1043,
+        "syllables": 80451.0,
+        "words": 56543
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "BS",
+      "languages": "en",
+      "subjects": "Bible",
+      "title": "The King James Version of the Bible",
+      "type": "Text",
+      "author": {
+        "birth": 0,
+        "death": 0,
+        "name": "Unknown"
+      },
+      "publication": {
+        "day": 2,
+        "full": "March 2, 2011",
+        "month": 3,
+        "month name": "March",
+        "year": 2011
+      }
+    },
+    "metadata": {
+      "downloads": 3776,
+      "id": 10,
+      "rank": 62,
+      "url": "https://www.gutenberg.org/ebooks/10",
+      "formats": {
+        "total": 7,
+        "types": "text/plain; charset=us-ascii,text/plain,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=iso-8859-1,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 13.6,
+        "coleman liau index": 9.06,
+        "dale chall readability score": 1.74,
+        "difficult words": 20764,
+        "flesch kincaid grade": 9.1,
+        "flesch reading ease": 77.91,
+        "gunning fog": 12.8,
+        "linsear write formula": 7.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.11573526589564455,
+        "subjectivity": 0.5157096435810404
+      },
+      "statistics": {
+        "average letter per word": 4.49,
+        "average sentence length": 27.0,
+        "average sentence per word": 0.04,
+        "characters": 3684178,
+        "polysyllables": 9815,
+        "sentences": 29667,
+        "syllables": 991401.3,
+        "words": 821130
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "HQ",
+      "languages": "en",
+      "subjects": "Pornography,Sex addicts -- Biography,Erotic literature",
+      "title": "My Secret Life, Volumes I. to III.: 1888 Edition",
+      "type": "Text",
+      "author": {
+        "birth": 0,
+        "death": 0,
+        "name": "Anonymous"
+      },
+      "publication": {
+        "day": 1,
+        "full": "January 1, 1888",
+        "month": 1,
+        "month name": "January",
+        "year": 1888
+      }
+    },
+    "metadata": {
+      "downloads": 3765,
+      "id": 30360,
+      "rank": 63,
+      "url": "https://www.gutenberg.org/ebooks/30360",
+      "formats": {
+        "total": 8,
+        "types": "text/plain,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=iso-8859-1,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.0,
+        "coleman liau index": 7.72,
+        "dale chall readability score": 5.41,
+        "difficult words": 14622,
+        "flesch kincaid grade": 6.8,
+        "flesch reading ease": 78.59,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 8.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.04672881965553007,
+        "subjectivity": 0.4668574404642869
+      },
+      "statistics": {
+        "average letter per word": 4.31,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 1124639,
+        "polysyllables": 3737,
+        "sentences": 14292,
+        "syllables": 328711.5,
+        "words": 260851
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PZ,PS",
+      "languages": "en",
+      "subjects": "Fantasy,Oz (Imaginary place) -- Fiction",
+      "title": "The Wonderful Wizard of Oz",
+      "type": "Text",
+      "author": {
+        "birth": 1856,
+        "death": 1919,
+        "name": "Baum, L. Frank (Lyman Frank)"
+      },
+      "publication": {
+        "day": 1,
+        "full": "July 1, 2008",
+        "month": 7,
+        "month name": "July",
+        "year": 2008
+      }
+    },
+    "metadata": {
+      "downloads": 3704,
+      "id": 55,
+      "rank": 64,
+      "url": "https://www.gutenberg.org/ebooks/55",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=iso-8859-1,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.7,
+        "coleman liau index": 8.47,
+        "dale chall readability score": 5.48,
+        "difficult words": 2376,
+        "flesch kincaid grade": 5.6,
+        "flesch reading ease": 87.05,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 1.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.1229120952124936,
+        "subjectivity": 0.517479858012894
+      },
+      "statistics": {
+        "average letter per word": 4.44,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 175909,
+        "polysyllables": 205,
+        "sentences": 2152,
+        "syllables": 49077.9,
+        "words": 39588
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "JC",
+      "languages": "en",
+      "subjects": "Liberty",
+      "title": "On Liberty",
+      "type": "Text",
+      "author": {
+        "birth": 1806,
+        "death": 1873,
+        "name": "Mill, John Stuart"
+      },
+      "publication": {
+        "day": 10,
+        "full": "January 10, 2011",
+        "month": 1,
+        "month name": "January",
+        "year": 2011
+      }
+    },
+    "metadata": {
+      "downloads": 3683,
+      "id": 34901,
+      "rank": 65,
+      "url": "https://www.gutenberg.org/ebooks/34901",
+      "formats": {
+        "total": 8,
+        "types": "text/plain; charset=us-ascii,text/plain,text/html; charset=iso-8859-1,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 20.5,
+        "coleman liau index": 12.66,
+        "dale chall readability score": 7.39,
+        "difficult words": 6481,
+        "flesch kincaid grade": 16.2,
+        "flesch reading ease": 43.4,
+        "gunning fog": 16.400000000000002,
+        "linsear write formula": 11.0,
+        "smog index": 11.2
+      },
+      "sentiments": {
+        "polarity": 0.1137606823079467,
+        "subjectivity": 0.48822027532369205
+      },
+      "statistics": {
+        "average letter per word": 5.06,
+        "average sentence length": 36.0,
+        "average sentence per word": 0.03,
+        "characters": 263422,
+        "polysyllables": 3273,
+        "sentences": 1439,
+        "syllables": 80190.9,
+        "words": 52040
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Detective and mystery stories;Holmes, Sherlock (Fictitious character) -- Fiction;Private investigators -- England -- Fiction;Blessing and cursing -- Fiction;Dogs -- Fiction;Dartmoor (England) -- Fiction",
+      "title": "The Hound of the Baskervilles",
+      "type": "Text",
+      "author": {
+        "birth": 1859,
+        "death": 1930,
+        "name": "Doyle, Arthur Conan"
+      },
+      "publication": {
+        "day": 1,
+        "full": "October, 2001",
+        "month": 10,
+        "month name": "October",
+        "year": 2001
+      }
+    },
+    "metadata": {
+      "downloads": 3677,
+      "id": 2852,
+      "rank": 66,
+      "url": "https://www.gutenberg.org/ebooks/2852",
+      "formats": {
+        "total": 6,
+        "types": "text/html; charset=us-ascii,text/plain; charset=us-ascii,text/plain,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.0,
+        "coleman liau index": 8.99,
+        "dale chall readability score": 5.84,
+        "difficult words": 5482,
+        "flesch kincaid grade": 5.6,
+        "flesch reading ease": 81.63,
+        "gunning fog": 8.0,
+        "linsear write formula": 5.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06625768484988138,
+        "subjectivity": 0.495383983104905
+      },
+      "statistics": {
+        "average letter per word": 4.58,
+        "average sentence length": 15.0,
+        "average sentence per word": 0.06,
+        "characters": 270731,
+        "polysyllables": 1301,
+        "sentences": 3768,
+        "syllables": 77996.7,
+        "words": 59122
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Male friendship -- Fiction;Thames River (England) -- Fiction;Boats and boating -- England -- Thames River -- Fiction;Dogs -- Fiction;Humorous stories, English;Young men -- Travel -- England -- Thames River -- Fiction",
+      "title": "Three Men in a Boat",
+      "type": "Text",
+      "author": {
+        "birth": 1859,
+        "death": 1927,
+        "name": "Jerome, Jerome K. (Jerome Klapka)"
+      },
+      "publication": {
+        "day": 19,
+        "full": "October 19, 2010",
+        "month": 10,
+        "month name": "October",
+        "year": 2010
+      }
+    },
+    "metadata": {
+      "downloads": 3647,
+      "id": 308,
+      "rank": 67,
+      "url": "https://www.gutenberg.org/ebooks/308",
+      "formats": {
+        "total": 7,
+        "types": "text/html,text/plain; charset=utf-8,text/plain; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.0,
+        "coleman liau index": 9.34,
+        "dale chall readability score": 6.18,
+        "difficult words": 6772,
+        "flesch kincaid grade": 7.2,
+        "flesch reading ease": 77.57,
+        "gunning fog": 9.600000000000001,
+        "linsear write formula": 4.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06767916178700085,
+        "subjectivity": 0.4749958644650665
+      },
+      "statistics": {
+        "average letter per word": 4.59,
+        "average sentence length": 19.0,
+        "average sentence per word": 0.05,
+        "characters": 306930,
+        "polysyllables": 1271,
+        "sentences": 3401,
+        "syllables": 86480.1,
+        "words": 66828
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR,PZ",
+      "languages": "en",
+      "subjects": "Fantasy",
+      "title": "Through the Looking-Glass",
+      "type": "Text",
+      "author": {
+        "birth": 1832,
+        "death": 1898,
+        "name": "Carroll, Lewis"
+      },
+      "publication": {
+        "day": 1,
+        "full": "February, 1991",
+        "month": 2,
+        "month name": "February",
+        "year": 1991
+      }
+    },
+    "metadata": {
+      "downloads": 3626,
+      "id": 12,
+      "rank": 68,
+      "url": "https://www.gutenberg.org/ebooks/12",
+      "formats": {
+        "total": 7,
+        "types": "text/plain,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.3,
+        "coleman liau index": 9.45,
+        "dale chall readability score": 5.84,
+        "difficult words": 2700,
+        "flesch kincaid grade": 5.6,
+        "flesch reading ease": 81.63,
+        "gunning fog": 8.0,
+        "linsear write formula": 10.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.08724284395584836,
+        "subjectivity": 0.486644805436109
+      },
+      "statistics": {
+        "average letter per word": 4.71,
+        "average sentence length": 15.0,
+        "average sentence per word": 0.07,
+        "characters": 137377,
+        "polysyllables": 373,
+        "sentences": 1938,
+        "syllables": 37274.4,
+        "words": 29170
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "Science fiction,Dystopias -- Fiction,Time travel -- Fiction",
+      "title": "The Time Machine",
+      "type": "Text",
+      "author": {
+        "birth": 1866,
+        "death": 1946,
+        "name": "Wells, H. G. (Herbert George)"
+      },
+      "publication": {
+        "day": 2,
+        "full": "October 2, 2004",
+        "month": 10,
+        "month name": "October",
+        "year": 2004
+      }
+    },
+    "metadata": {
+      "downloads": 3599,
+      "id": 35,
+      "rank": 69,
+      "url": "https://www.gutenberg.org/ebooks/35",
+      "formats": {
+        "total": 6,
+        "types": "text/html,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.3,
+        "coleman liau index": 9.86,
+        "dale chall readability score": 6.54,
+        "difficult words": 4316,
+        "flesch kincaid grade": 7.2,
+        "flesch reading ease": 72.16,
+        "gunning fog": 8.4,
+        "linsear write formula": 11.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.05436392619954661,
+        "subjectivity": 0.46304118056541577
+      },
+      "statistics": {
+        "average letter per word": 4.73,
+        "average sentence length": 16.0,
+        "average sentence per word": 0.06,
+        "characters": 152740,
+        "polysyllables": 1011,
+        "sentences": 1902,
+        "syllables": 44856.0,
+        "words": 32298
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "HT",
+      "languages": "en",
+      "subjects": "Slaves -- United States -- Biography;Slaves -- Great Britain -- Biography;Equiano, Olaudah, 1745-1797",
+      "title": "The Interesting Narrative of the Life of Olaudah Equiano, Or Gustavus Vassa, The African: Written By Himself",
+      "type": "Text",
+      "author": {
+        "birth": 1745,
+        "death": 1797,
+        "name": "Equiano, Olaudah"
+      },
+      "publication": {
+        "day": 17,
+        "full": "March 17, 2005",
+        "month": 3,
+        "month name": "March",
+        "year": 2005
+      }
+    },
+    "metadata": {
+      "downloads": 3526,
+      "id": 15399,
+      "rank": 70,
+      "url": "https://www.gutenberg.org/ebooks/15399",
+      "formats": {
+        "total": 8,
+        "types": "text/plain; charset=us-ascii,application/x-mobipocket-ebook,text/html; charset=iso-8859-1,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=iso-8859-1,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 14.8,
+        "coleman liau index": 9.82,
+        "dale chall readability score": 6.52,
+        "difficult words": 7539,
+        "flesch kincaid grade": 11.1,
+        "flesch reading ease": 67.42,
+        "gunning fog": 13.600000000000001,
+        "linsear write formula": 4.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.13309690461316803,
+        "subjectivity": 0.48691924409779647
+      },
+      "statistics": {
+        "average letter per word": 4.57,
+        "average sentence length": 29.0,
+        "average sentence per word": 0.03,
+        "characters": 377573,
+        "polysyllables": 2010,
+        "sentences": 2809,
+        "syllables": 110958.3,
+        "words": 82531
+      }
+    }
+  },
+    {
+    "bibliography": {
+      "congress classifications": "PS",
+      "languages": "en",
+      "subjects": "Immigrants -- Fiction,Political fiction,Meat industry and trade -- Fiction,Lithuanian Americans -- Fiction,Chicago (Ill.) -- Fiction,Stockyards -- Fiction,Working class -- Fiction",
+      "title": "The Jungle",
+      "type": "Text",
+      "author": {
+        "birth": 1878,
+        "death": 1968,
+        "name": "Sinclair, Upton"
+      },
+      "publication": {
+        "day": 11,
+        "full": "March 11, 2006",
+        "month": 3,
+        "month name": "March",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 3522,
+      "id": 140,
+      "rank": 71,
+      "url": "https://www.gutenberg.org/ebooks/140",
+      "formats": {
+        "total": 7,
+        "types": "application/x-mobipocket-ebook,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 12.0,
+        "coleman liau index": 9.7,
+        "dale chall readability score": 6.08,
+        "difficult words": 12320,
+        "flesch kincaid grade": 8.7,
+        "flesch reading ease": 73.51,
+        "gunning fog": 11.200000000000001,
+        "linsear write formula": 17.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.040068339228926046,
+        "subjectivity": 0.4644464232121743
+      },
+      "statistics": {
+        "average letter per word": 4.6,
+        "average sentence length": 23.0,
+        "average sentence per word": 0.04,
+        "characters": 686087,
+        "polysyllables": 2947,
+        "sentences": 6321,
+        "syllables": 196649.1,
+        "words": 149118
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PT",
+      "languages": "de",
+      "subjects": "Erotic stories, German",
+      "title": "Josefine Mutzenbacher: oder Die Geschichte einer Wienerischen Dirne von ihr selbst erz\u00e4hlt",
+      "type": "Text",
+      "author": {
+        "birth": 1869,
+        "death": 1945,
+        "name": "Salten, Felix"
+      },
+      "publication": {
+        "day": 15,
+        "full": "February 15, 2010",
+        "month": 2,
+        "month name": "February",
+        "year": 2010
+      }
+    },
+    "metadata": {
+      "downloads": 3506,
+      "id": 31284,
+      "rank": 72,
+      "url": "https://www.gutenberg.org/ebooks/31284",
+      "formats": {
+        "total": 9,
+        "types": "image/jpeg,text/html; charset=iso-8859-1,text/plain,application/octet-stream,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.3,
+        "coleman liau index": 12.22,
+        "dale chall readability score": 5.8,
+        "difficult words": 6950,
+        "flesch kincaid grade": 4.0,
+        "flesch reading ease": 85.69,
+        "gunning fog": 6.4,
+        "linsear write formula": 10.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.27326448344748866,
+        "subjectivity": 0.5073059360730594
+      },
+      "statistics": {
+        "average letter per word": 5.29,
+        "average sentence length": 11.0,
+        "average sentence per word": 0.09,
+        "characters": 359174,
+        "polysyllables": 986,
+        "sentences": 5825,
+        "syllables": 87192.9,
+        "words": 67852
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PS",
+      "languages": "en",
+      "subjects": "Civil disobedience;Solitude;Thoreau, Henry David, 1817-1862 -- Homes and haunts -- Massachusetts -- Walden Woods;Government, Resistance to;Natural history -- Massachusetts -- Walden Woods;Wilderness areas -- Massachusetts -- Walden Woods;Authors, American -- 19th century -- Biography;Walden Woods (Mass.) -- Social life and customs",
+      "title": "Walden, and On The Duty Of Civil Disobedience",
+      "type": "Text",
+      "author": {
+        "birth": 1817,
+        "death": 1862,
+        "name": "Thoreau, Henry David"
+      },
+      "publication": {
+        "day": 1,
+        "full": "January, 1995",
+        "month": 1,
+        "month name": "January",
+        "year": 1995
+      }
+    },
+    "metadata": {
+      "downloads": 3501,
+      "id": 205,
+      "rank": 73,
+      "url": "https://www.gutenberg.org/ebooks/205",
+      "formats": {
+        "total": 7,
+        "types": "application/rdf+xml,text/plain; charset=utf-8,text/html; charset=iso-8859-1,text/plain; charset=iso-8859-1,application/epub+zip,text/plain; charset=us-ascii,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 14.5,
+        "coleman liau index": 9.93,
+        "dale chall readability score": 6.67,
+        "difficult words": 12047,
+        "flesch kincaid grade": 11.8,
+        "flesch reading ease": 59.98,
+        "gunning fog": 13.200000000000001,
+        "linsear write formula": 58.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.11396075580986613,
+        "subjectivity": 0.48933162360383486
+      },
+      "statistics": {
+        "average letter per word": 4.64,
+        "average sentence length": 28.0,
+        "average sentence per word": 0.04,
+        "characters": 536586,
+        "polysyllables": 3414,
+        "sentences": 4113,
+        "syllables": 157520.7,
+        "words": 115646
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "England -- Fiction,Political fiction,Education -- Fiction,Utilitarianism -- Fiction,Social problems -- Fiction,Domestic fiction",
+      "title": "Hard Times",
+      "type": "Text",
+      "author": {
+        "birth": 1812,
+        "death": 1870,
+        "name": "Dickens, Charles"
+      },
+      "publication": {
+        "day": 17,
+        "full": "March 17, 2013",
+        "month": 3,
+        "month name": "March",
+        "year": 2013
+      }
+    },
+    "metadata": {
+      "downloads": 3494,
+      "id": 786,
+      "rank": 74,
+      "url": "https://www.gutenberg.org/ebooks/786",
+      "formats": {
+        "total": 6,
+        "types": "text/html,text/plain; charset=utf-8,application/zip,application/rdf+xml,application/epub+zip,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.1,
+        "coleman liau index": 10.03,
+        "dale chall readability score": 6.04,
+        "difficult words": 10494,
+        "flesch kincaid grade": 6.0,
+        "flesch reading ease": 80.62,
+        "gunning fog": 8.4,
+        "linsear write formula": 8.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.08739687382130339,
+        "subjectivity": 0.4984569708076884
+      },
+      "statistics": {
+        "average letter per word": 4.76,
+        "average sentence length": 16.0,
+        "average sentence per word": 0.06,
+        "characters": 491593,
+        "polysyllables": 2587,
+        "sentences": 6369,
+        "syllables": 137771.1,
+        "words": 103230
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PG",
+      "languages": "en",
+      "subjects": "Brothers -- Fiction,Fathers and sons -- Fiction,Didactic fiction,Russia -- Social life and customs -- 1533-1917 -- Fiction",
+      "title": "The Brothers Karamazov",
+      "type": "Text",
+      "author": {
+        "birth": 1821,
+        "death": 1881,
+        "name": "Dostoyevsky, Fyodor"
+      },
+      "publication": {
+        "day": 12,
+        "full": "February 12, 2009",
+        "month": 2,
+        "month name": "February",
+        "year": 2009
+      }
+    },
+    "metadata": {
+      "downloads": 3478,
+      "id": 28054,
+      "rank": 75,
+      "url": "https://www.gutenberg.org/ebooks/28054",
+      "formats": {
+        "total": 10,
+        "types": "text/plain; charset=utf-8,text/plain; charset=us-ascii,text/html; charset=utf-8,application/pdf,application/prs.tei,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.1,
+        "coleman liau index": 9.5,
+        "dale chall readability score": 5.24,
+        "difficult words": 20241,
+        "flesch kincaid grade": 6.4,
+        "flesch reading ease": 74.19,
+        "gunning fog": 7.6000000000000005,
+        "linsear write formula": 2.5,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.07042299049882597,
+        "subjectivity": 0.5213109524677764
+      },
+      "statistics": {
+        "average letter per word": 4.72,
+        "average sentence length": 14.0,
+        "average sentence per word": 0.07,
+        "characters": 1651301,
+        "polysyllables": 9371,
+        "sentences": 23925,
+        "syllables": 474897.6,
+        "words": 350214
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "JK",
+      "languages": "en",
+      "subjects": "United States -- Social conditions,Democracy -- United States,United States -- Politics and government",
+      "title": "Democracy in America \u2014 Volume 1",
+      "type": "Text",
+      "author": {
+        "birth": 1805,
+        "death": 1859,
+        "name": "Tocqueville, Alexis de"
+      },
+      "publication": {
+        "day": 21,
+        "full": "January 21, 2006",
+        "month": 1,
+        "month name": "January",
+        "year": 2006
+      }
+    },
+    "metadata": {
+      "downloads": 3455,
+      "id": 815,
+      "rank": 76,
+      "url": "https://www.gutenberg.org/ebooks/815",
+      "formats": {
+        "total": 7,
+        "types": "application/x-mobipocket-ebook,text/plain; charset=us-ascii,text/plain,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 18.7,
+        "coleman liau index": 12.95,
+        "dale chall readability score": 6.33,
+        "difficult words": 13330,
+        "flesch kincaid grade": 15.8,
+        "flesch reading ease": 39.0,
+        "gunning fog": 14.8,
+        "linsear write formula": 22.0,
+        "smog index": 11.2
+      },
+      "sentiments": {
+        "polarity": 0.10755925097210459,
+        "subjectivity": 0.4520576184782361
+      },
+      "statistics": {
+        "average letter per word": 5.11,
+        "average sentence length": 32.0,
+        "average sentence per word": 0.03,
+        "characters": 974148,
+        "polysyllables": 13853,
+        "sentences": 5911,
+        "syllables": 297308.7,
+        "words": 190451
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PQ",
+      "languages": "en",
+      "subjects": "Short stories, French -- Translations into English",
+      "title": "Complete Original Short Stories of Guy De Maupassant",
+      "type": "Text",
+      "author": {
+        "birth": 1850,
+        "death": 1893,
+        "name": "Maupassant, Guy de"
+      },
+      "publication": {
+        "day": 2,
+        "full": "October 2, 2004",
+        "month": 10,
+        "month name": "October",
+        "year": 2004
+      }
+    },
+    "metadata": {
+      "downloads": 3437,
+      "id": 3090,
+      "rank": 77,
+      "url": "https://www.gutenberg.org/ebooks/3090",
+      "formats": {
+        "total": 7,
+        "types": "text/html; charset=iso-8859-1,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/plain; charset=us-ascii,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.8,
+        "coleman liau index": 9.86,
+        "dale chall readability score": 5.41,
+        "difficult words": 28790,
+        "flesch kincaid grade": 6.4,
+        "flesch reading ease": 79.6,
+        "gunning fog": 8.8,
+        "linsear write formula": 11.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06199086277678568,
+        "subjectivity": 0.48696359089374347
+      },
+      "statistics": {
+        "average letter per word": 4.73,
+        "average sentence length": 17.0,
+        "average sentence per word": 0.06,
+        "characters": 2322316,
+        "polysyllables": 10385,
+        "sentences": 27322,
+        "syllables": 659071.8,
+        "words": 490717
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PE",
+      "languages": "en",
+      "subjects": "English language -- Composition and exercises;English language -- Grammar -- Problems, exercises, etc.",
+      "title": "Practical Grammar and Composition",
+      "type": "Text",
+      "author": {
+        "birth": 1883,
+        "death": 0,
+        "name": "Wood, Thomas"
+      },
+      "publication": {
+        "day": 11,
+        "full": "September 11, 2007",
+        "month": 9,
+        "month name": "September",
+        "year": 2007
+      }
+    },
+    "metadata": {
+      "downloads": 3434,
+      "id": 22577,
+      "rank": 78,
+      "url": "https://www.gutenberg.org/ebooks/22577",
+      "formats": {
+        "total": 7,
+        "types": "application/rdf+xml,text/html; charset=iso-8859-1,application/x-mobipocket-ebook,text/plain; charset=iso-8859-1,application/epub+zip,text/plain; charset=us-ascii,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 8.6,
+        "coleman liau index": 11.53,
+        "dale chall readability score": 6.15,
+        "difficult words": 7927,
+        "flesch kincaid grade": 5.2,
+        "flesch reading ease": 77.23,
+        "gunning fog": 6.4,
+        "linsear write formula": 11.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.07272736011839737,
+        "subjectivity": 0.47077537834726185
+      },
+      "statistics": {
+        "average letter per word": 5.12,
+        "average sentence length": 11.0,
+        "average sentence per word": 0.08,
+        "characters": 326211,
+        "polysyllables": 2252,
+        "sentences": 5396,
+        "syllables": 88321.5,
+        "words": 63677
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PR",
+      "languages": "en",
+      "subjects": "England -- Social life and customs -- 19th century -- Fiction,Bildungsromans,Orphans -- Fiction,Child labor -- Fiction,Autobiographical fiction,England -- Fiction,Young men -- Fiction,Boys -- Fiction,Stepfathers -- Fiction",
+      "title": "David Copperfield",
+      "type": "Text",
+      "author": {
+        "birth": 1812,
+        "death": 1870,
+        "name": "Dickens, Charles"
+      },
+      "publication": {
+        "day": 1,
+        "full": "December, 1996",
+        "month": 12,
+        "month name": "December",
+        "year": 1996
+      }
+    },
+    "metadata": {
+      "downloads": 3427,
+      "id": 766,
+      "rank": 79,
+      "url": "https://www.gutenberg.org/ebooks/766",
+      "formats": {
+        "total": 7,
+        "types": "text/plain,text/plain; charset=us-ascii,application/x-mobipocket-ebook,application/zip,application/rdf+xml,application/epub+zip,text/html; charset=us-ascii"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 9.4,
+        "coleman liau index": 9.34,
+        "dale chall readability score": 5.49,
+        "difficult words": 22731,
+        "flesch kincaid grade": 6.4,
+        "flesch reading ease": 79.6,
+        "gunning fog": 8.8,
+        "linsear write formula": 3.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.11308074909969966,
+        "subjectivity": 0.5024246743371027
+      },
+      "statistics": {
+        "average letter per word": 4.64,
+        "average sentence length": 17.0,
+        "average sentence per word": 0.06,
+        "characters": 1647137,
+        "polysyllables": 8232,
+        "sentences": 19863,
+        "syllables": 468659.7,
+        "words": 354823
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "E011",
+      "languages": "en",
+      "subjects": "Lancaster (Mass.) -- History -- Colonial period, ca. 1600-1775;King Philip's War, 1675-1676;Massachusetts -- Biography;Indian captivities -- Massachusetts;Rowlandson, Mary White, approximately 1635-1711",
+      "title": "Narrative of the Captivity and Restoration of Mrs. Mary Rowlandson",
+      "type": "Text",
+      "author": {
+        "birth": 0,
+        "death": 1711,
+        "name": "Rowlandson, Mary White"
+      },
+      "publication": {
+        "day": 1,
+        "full": "March, 1997",
+        "month": 3,
+        "month name": "March",
+        "year": 1997
+      }
+    },
+    "metadata": {
+      "downloads": 3389,
+      "id": 851,
+      "rank": 80,
+      "url": "https://www.gutenberg.org/ebooks/851",
+      "formats": {
+        "total": 7,
+        "types": "application/x-mobipocket-ebook,text/plain; charset=us-ascii,text/html; charset=us-ascii,application/zip,application/rdf+xml,application/epub+zip,text/plain"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 11.8,
+        "coleman liau index": 8.13,
+        "dale chall readability score": 6.2,
+        "difficult words": 1694,
+        "flesch kincaid grade": 8.3,
+        "flesch reading ease": 79.94,
+        "gunning fog": 12.0,
+        "linsear write formula": 7.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.06631670834305593,
+        "subjectivity": 0.4901305831917258
+      },
+      "statistics": {
+        "average letter per word": 4.33,
+        "average sentence length": 25.0,
+        "average sentence per word": 0.04,
+        "characters": 87391,
+        "polysyllables": 184,
+        "sentences": 786,
+        "syllables": 25089.3,
+        "words": 20204
+      }
+    }
+  },
+  {
+    "bibliography": {
+      "congress classifications": "PS",
+      "languages": "en",
+      "subjects": "Plantation life -- Fiction,Slavery -- Fiction,Uncle Tom (Fictitious character) -- Fiction,African Americans -- Fiction,Political fiction,Master and servant -- Fiction,Fugitive slaves -- Fiction,Southern States -- Fiction,Slaves -- Fiction,Didactic fiction",
+      "title": "Uncle Tom's Cabin",
+      "type": "Text",
+      "author": {
+        "birth": 1811,
+        "death": 1896,
+        "name": "Stowe, Harriet Beecher"
+      },
+      "publication": {
+        "day": 1,
+        "full": "January, 1995",
+        "month": 1,
+        "month name": "January",
+        "year": 1995
+      }
+    },
+    "metadata": {
+      "downloads": 3336,
+      "id": 203,
+      "rank": 81,
+      "url": "https://www.gutenberg.org/ebooks/203",
+      "formats": {
+        "total": 8,
+        "types": "text/html; charset=iso-8859-1,text/plain; charset=us-ascii,text/plain,application/zip,text/plain; charset=iso-8859-1,application/epub+zip,application/rdf+xml,application/x-mobipocket-ebook"
+      }
+    },
+    "metrics": {
+      "difficulty": {
+        "automated readability index": 10.3,
+        "coleman liau index": 10.39,
+        "dale chall readability score": 5.96,
+        "difficult words": 16310,
+        "flesch kincaid grade": 6.8,
+        "flesch reading ease": 78.59,
+        "gunning fog": 9.200000000000001,
+        "linsear write formula": 14.0,
+        "smog index": 3.1
+      },
+      "sentiments": {
+        "polarity": 0.09891227793965336,
+        "subjectivity": 0.5116378773145582
+      },
+      "statistics": {
+        "average letter per word": 4.77,
+        "average sentence length": 18.0,
+        "average sentence per word": 0.05,
+        "characters": 861422,
+        "polysyllables": 4298,
+        "sentences": 9784,
+        "syllables": 238465.8,
+        "words": 180551
+      }
+    }
+  }
+]
