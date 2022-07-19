@@ -43,7 +43,8 @@ All Docker images will be pulled from Docker Hub. Check with `docker service ls`
 * Postgres preserves its data in `/var/lib/docker/volumes/vixtract_postgresql` folder on the host machine.
 * There is no point to change `postres` password in `docker-stack.yml` if container was started at least one time and created its volume in `/var/lib/docker...`. It does not affect anything. Use another postgresql build-in methods to change password instead, for example, this command in Linux terminal:
    ```
-   docker exec $(docker ps | grep vixtract_postgresql | awk '{print $1}') su postgres bash -c "psql -c \"ALTER USER postgres WITH PASSWORD 'some-password';\""
+   docker exec $(docker ps | grep vixtract_postgresql | awk '{print $1}') su postgres \
+   bash -c "psql -c \"ALTER USER postgres WITH PASSWORD 'some-password';\""
    ```
 * By default port **5432** is opened and there are to limitations to connect from any **IP** or with any **user**. In future builds postgresql will be hidden behind Nginx. As for a now some additional actions for servers exposed to the Internet are highly recommended: closing port by commenting two lines in `docker-stack.yml` or allowing connection from some IP or network interface only - see posgtresql documentions for the details.
 
@@ -185,6 +186,8 @@ Libs are install in JupyterLab web interface in console or terminal with `pip3 i
 7. Restart Nginx container with `docker service scale vixtract_nginx=0 && docker service scale vixtract_nginx=1`.
 8. Enjoy HTTPS in JupyterHub and Cronicle.
 
+***
+
 ## 8. Current limitations and known issues
 
 * The main limitation in this build is JupyterHub implementation in a container. It does no use conda enviroments as on host installation. So, you are limited to one env for Python and one kernel for Jupyter notebooks. The better approach here is DockerSpawner with separate Docker container for every env: https://github.com/jupyterhub/jupyterhub-deploy-docker
@@ -193,6 +196,7 @@ Libs are install in JupyterLab web interface in console or terminal with `pip3 i
 
 * No LDAP for Cronicle
 
+***
 
 ## 9. Roadmap.
 
