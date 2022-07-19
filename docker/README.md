@@ -198,7 +198,7 @@ Libs are install in JupyterLab web interface in console or terminal with `pip3 i
 
 ***
 
-## 9. Roadmap.
+## 9. Roadmap
 
 1. Proper JupyterHub deployment from this project https://github.com/jupyterhub/jupyterhub-deploy-docker
 2. Hiding PostgreqSQL behind Nginx.
