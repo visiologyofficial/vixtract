@@ -1,0 +1,55 @@
+version: "3.9"
+
+services:
+  postgresql:
+    image: postgres:14.2-bullseye
+    tty: true
+    stdin_open: true
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRES_PASSWORD=vixtract
+    volumes:
+     - postgresql:/var/lib/postgresql/data
+
+  jupyter:
+    image: vixtract/jupyter:1.0
+    tty: true
+    stdin_open: true
+    volumes:
+     - jupyter-config:/app
+     - jupyter-home:/home
+     - jupyter-etc:/etc
+     - jupyter-libs:/usr/local/lib/python3.10/dist-packages
+
+  cronicle:
+    image: vixtract/cronicle:1.0
+    hostname: vixtract_primary-cronicle-server # lock container hostname for Cronicle server connect
+    depends_on:
+      - jupyter # for mount points
+    volumes:
+      - cronicle-data:/opt/cronicle/data
+      #- jupyter-libs:/usr/local/lib/python3.10/dist-packages:ro
+      - jupyter-home:/opt/cronicle/jupyter-home:ro
+    #entrypoint: manager
+    #environment:
+     # - "CRONICLE_manager=1"
+
+  nginx:
+    image: vixtract/nginx:1.0
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - nginx-etc:/etc/nginx
+      - nginx-www:/var/www
+
+volumes:
+  postgresql:
+  jupyter-config:
+  jupyter-home:
+  jupyter-etc:
+  jupyter-libs:
+  cronicle-data:
+  nginx-etc:
+  nginx-www:
