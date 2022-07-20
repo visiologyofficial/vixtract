@@ -27,8 +27,9 @@ Project web site: https://www.vixtract.ru
 
 ## 3. Installation
 
-Download `docker-stack.yml` and run the next command:
+Download `docker-stack.yml` in vixtract folder and run docker deploy command:
    ```
+   wget https://github.com/yusben/vixtract/blob/master/docker/docker-stack.yml
    docker stack deploy --compose-file docker-stack.yml vixtract
    ```
 All Docker images will be pulled from Docker Hub. Check with `docker service ls` that all containers are up and running and go to http://{server_address}:80 to open Vixtract web interface.
