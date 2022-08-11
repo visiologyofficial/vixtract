@@ -38,12 +38,6 @@ COPY ./create-user.py .
 # Allow dots in system usernames
 COPY ./adduser.conf /etc
 
-# Volumes for keeping new users, Python libs
-VOLUME /app
-VOLUME /home
-VOLUME /etc
-VOLUME /usr/local/lib/python3.10/dist-packages
-
 EXPOSE 8000
 
 #ENTRYPOINT ["jupyterhub", "--ip=0.0.0.0", "--port=8000", "--no-ssl", "-f", "/app/jupyterhub_config.py"]

@@ -17,23 +17,21 @@ services:
     tty: true
     stdin_open: true
     volumes:
-     - jupyter-config:/app
-     - jupyter-home:/home
-     - jupyter-etc:/etc
      - jupyter-libs:/usr/local/lib/python3.10/dist-packages
+     - jupyter-home:/home
+     - jupyter-config:/app
+     - jupyter-etc:/etc
 
   cronicle:
     image: vixtract/cronicle:1.0
     hostname: vixtract_primary-cronicle-server # lock container hostname for Cronicle server connect
     depends_on:
-      - jupyter # for mount points
+      - jupyter # for shared volumes
     volumes:
       - cronicle-data:/opt/cronicle/data
-      #- jupyter-libs:/usr/local/lib/python3.10/dist-packages:ro
+      #- /var/lib/docker/volumes/vixtract_jupyter-libs/_data:/usr/local/lib/python3.10/dist-packages:ro
       - jupyter-home:/opt/cronicle/jupyter-home:ro
-    #entrypoint: manager
-    #environment:
-     # - "CRONICLE_manager=1"
+      - jupyter-libs:/usr/local/lib/python3.10/dist-packages:ro
 
   nginx:
     image: vixtract/nginx:1.0
