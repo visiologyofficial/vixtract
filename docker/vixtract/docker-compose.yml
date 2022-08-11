@@ -4,6 +4,7 @@ services:
   postgresql:
     image: postgres:14.2-bullseye
     container_name: vixtract_postgresql
+    restart: always
     tty: true
     stdin_open: true
     ports:
@@ -16,6 +17,7 @@ services:
   jupyter:
     image: vixtract/jupyter:1.0
     container_name: vixtract_jupyter
+    restart: always
     tty: true
     stdin_open: true
     volumes:
@@ -28,6 +30,7 @@ services:
     image: vixtract/cronicle:1.0
     container_name: vixtract_cronicle
     hostname: vixtract_primary-cronicle-server # lock container hostname for Cronicle server connect
+    restart: always
     depends_on:
       - jupyter # for shared volumes
     volumes:
@@ -39,6 +42,7 @@ services:
   nginx:
     image: vixtract/nginx:1.0
     container_name: vixtract_nginx
+    restart: always
     depends_on:
       - jupyter
       - cronicle
