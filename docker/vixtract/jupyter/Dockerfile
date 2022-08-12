@@ -29,7 +29,7 @@ RUN usermod -a -G sudo admin
 
 # Give write permissions to admin for /usr/local/lib
 # which will allow us to install libs globally from this acc in Jupyter
-RUN chgrp -R admin /usr/local/lib && chmod -R 775 /usr/local/lib
+RUN chgrp -R admin /usr/local && chmod -R 775 /usr/local
 
 # Copy configs and scripts
 COPY ./jupyterhub_config.py .
