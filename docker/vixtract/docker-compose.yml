@@ -36,7 +36,7 @@ services:
     volumes:
       - cronicle-data:/opt/cronicle/data
       #- /var/lib/docker/volumes/vixtract_jupyter-libs/_data:/usr/local/lib/python3.10/dist-packages:ro
-      - jupyter-home:/opt/cronicle/jupyter-home:ro
+      - jupyter-home:/opt/cronicle/jupyter-home
       - jupyter-libs:/usr/local/lib/python3.10/dist-packages:ro
 
   nginx:
