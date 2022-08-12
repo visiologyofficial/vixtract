@@ -148,6 +148,17 @@ Libs are installed in JupyterLab web interface in console or terminal with `pip3
 2. Other users can install Python libs in their home directories only, so each user will see his/her home libs and global libs.
 3. In case LDAP is enabled and it is impossible to use ***admin*** user for working in JupyterHub execute `su admin` command in JupyterLab terminal and then install libs globally from system user ***admin***.
 
+### Running events with notebooks in Cronicle
+
+1. Choose a Jupyter notebook in JupyterLab to run via Cronicle. As an example lets take two notebooks 
+    - `freshdesk.ipynb` (which full location inside Jupyter Docker container will be `/home/admin/freshdesk.ipynb`).
+    - `apple.ipynb` (which full location inside Jupyter Docker container will be `/home/yus1/freshdesk.ipynb`)
+2. As we can see `freshdesk.ipynb` is admin's notebook while `apple.ipynb` owned by user `yus1`. We can run both in Cronicle but do not forget that Python libs for Freshdesk and Apple must be installed globally from `admin` user in JupyterLab. If apple lib is installed inside JupyterLab from `yus1` user Cronicle will not see it.
+3. Open Cronicle web interface and add an event in `Schedule` tab.
+4. Choose `Shell script` plugin and type `papermill --cwd ./jupyter-home/admin/ ./jupyter-home/admin/freshdesk.ipynb ./jupyter-home/admin/freshdesk-output.ipynb`.
+5. Finish configuring the event and save it.
+6. Create another Cronicle event with `papermill --cwd ./jupyter-home/yus1/ ./jupyter-home/yus1/apple.ipynb ./jupyter-home/yus1/apple-output.ipynb` in shell script.
+7. Manually run the events and see results in `Completed` tab.
 ### PostgreSQL guideline
 
 * Create your own databases, users, roles, set permissions and assign connection rules according to your needs. Use official PostgreSQL documentation for that.
