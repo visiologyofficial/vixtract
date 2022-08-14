@@ -756,6 +756,7 @@ c.Spawner.default_url = '/lab'
 c.JupyterHub.bind_url = 'http://:8000/jupyter'
 c.Authenticator.admin_users = {'admin'}
 c.LocalAuthenticator.add_user_cmd = ['python3','/app/create-user.py','USERNAME']
+c.LocalAuthenticator.create_system_users = True
 
 #LDAP authentication config section
 #c.JupyterHub.authenticator_class = 'ldapcreateusers.LocalLDAPCreateUsers'
