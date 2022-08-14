@@ -756,23 +756,22 @@ c.Spawner.default_url = '/lab'
 c.JupyterHub.bind_url = 'http://:8000/jupyter'
 c.Authenticator.admin_users = {'admin'}
 c.LocalAuthenticator.add_user_cmd = ['python3','/app/create-user.py','USERNAME']
-c.LocalAuthenticator.create_system_users = True
 
 #LDAP authentication config section
-# c.JupyterHub.authenticator_class = 'ldapcreateusers.LocalLDAPCreateUsers'
-# c.LocalLDAPCreateUsers.server_address = 'ldap://192.168.0.5'
-# c.LocalLDAPCreateUsers.server_port = 389
-# c.LocalLDAPCreateUsers.use_ssl = True
-# c.LocalLDAPCreateUsers.lookup_dn = True
-# c.LocalLDAPCreateUsers.lookup_dn_search_filter = '({login_attr}={login})'
-# c.LocalLDAPCreateUsers.lookup_dn_search_user = 'frodo@middle.earth'
-# c.LocalLDAPCreateUsers.lookup_dn_search_password = 'password'
-# c.LocalLDAPCreateUsers.user_search_base = 'OU=Users,OU=Hobbiton,OU=Shire,DC=middle,DC=earth'
-# c.LocalLDAPCreateUsers.user_attribute = 'sAMAccountName'
-# c.LocalLDAPCreateUsers.lookup_dn_user_dn_attribute = 'cn'
-# c.LocalLDAPCreateUsers.escape_userdn = True
-# c.LocalLDAPCreateUsers.bind_dn_template = '{username}'
-# c.LocalLDAPCreateUsers.use_lookup_dn_username = False
+#c.JupyterHub.authenticator_class = 'ldapcreateusers.LocalLDAPCreateUsers'
+#c.LocalLDAPCreateUsers.server_address = 'ldap://192.168.0.5'
+#c.LocalLDAPCreateUsers.server_port = 389
+#c.LocalLDAPCreateUsers.use_ssl = True
+#c.LocalLDAPCreateUsers.lookup_dn = True
+#c.LocalLDAPCreateUsers.lookup_dn_search_filter = '({login_attr}={login})'
+#c.LocalLDAPCreateUsers.lookup_dn_search_user = 'frodo@middle.earth'
+#c.LocalLDAPCreateUsers.lookup_dn_search_password = 'password'
+#c.LocalLDAPCreateUsers.user_search_base = 'OU=Users,OU=Hobbiton,OU=Shire,DC=middle,DC=earth'
+#c.LocalLDAPCreateUsers.user_attribute = 'sAMAccountName'
+#c.LocalLDAPCreateUsers.lookup_dn_user_dn_attribute = 'cn'
+#c.LocalLDAPCreateUsers.escape_userdn = True
+#c.LocalLDAPCreateUsers.bind_dn_template = '{username}'
+#c.LocalLDAPCreateUsers.use_lookup_dn_username = False
 
 # Сreate system users that don't exist yet. 
 # Do not enable it unless you have to. It is recommended to manage and create users manually in Hub Control

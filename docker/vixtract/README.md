@@ -171,6 +171,7 @@ Libs are installed in JupyterLab web interface in console or terminal with `pip3
 * Currently LDAP is available in JupyterHub only. 
 * Python libs `jupyterhub-ldapauthenticator`, `jupyterhub-ldapcreateusers` are already included in Jupyter container.
 * Source of information for JupyterHub is here: https://github.com/jupyterhub/ldapauthenticator
+* Presumably minimum username length is three characters in Hub Control Panel. If you need to create LDAP user with one or two characters long, enable temporarily `c.LocalLDAPCreateUsers.create_system_users` in `/var/lib/docker/volumes/vixtract_jupyter-config/_data/jupyterhub_config.py`. Then just login with this short username, account will be created automatically. Also optionally add this short username in admin list in the same `jupyterhub_config.py` file (last lines).
 
 #### Configuration use case for JupyterHub.
 1. Create new user with admin rights in Hub Control Panel with the same username as in LDAP.
