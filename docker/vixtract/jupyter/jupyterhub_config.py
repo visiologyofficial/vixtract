@@ -775,5 +775,4 @@ c.LocalAuthenticator.create_system_users = True
 #c.LocalLDAPCreateUsers.use_lookup_dn_username = False
 
 # Сreate system users that don't exist yet. 
-# Do not enable it unless you have to. It is recommended to manage and create users manually in Hub Control
 #c.LocalLDAPCreateUsers.create_system_users = True

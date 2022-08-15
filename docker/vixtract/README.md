@@ -48,7 +48,7 @@ All Docker images will be pulled from Docker Hub. Check with `docker-compose ps`
    docker exec $(docker ps | grep vixtract_postgresql | awk '{print $1}') su postgres \
    bash -c "psql -c \"ALTER USER postgres WITH PASSWORD 'some-password';\""
    ```
-* By default port **5432** is opened and there are to limitations to connect from any **IP** or with any **user**. In future builds postgresql will be hidden behind Nginx. As for now some additional actions for servers exposed to the Internet are highly recommended: closing port by commenting two lines in `docker-compose.yml` or allowing connection from some IP or network interface only - see posgtresql documention for the details.
+* By default port **5432** is opened and there are to limitations to connect from any **IP** or with any **user**. In future builds postgresql will be hidden behind Nginx. As for now some additional actions for servers exposed to the Internet are highly recommended: closing port by commenting out two lines in `docker-compose.yml` or allowing connection from some IP or network interface only - see posgtresql documention for the details.
 
 
 ### Jupyter:
@@ -123,7 +123,7 @@ Users must be added separately in JupyterHub and in Cronicle. Optionally in Post
 
 1. JupyterHub. 
    * All users added via Hub Control Panel have a password `vixtract` by default. There is a good article showing how to add new users and change their passwords:https://rancavil.medium.com/jupyterhub-docker-how-to-add-new-users-d41f6b39ec30
-   * Presumably minimum username length is three characters in Hub Control Panel. If you need to create LDAP user with one or two characters long enable temporarily `c.LocalLDAPCreateUsers.create_system_users` in `/var/lib/docker/volumes/vixtract_jupyter-config/_data/jupyterhub_config.py`. Then just login with this short username, account will be created automatically.
+   * Presumably minimum username length is three characters in Hub Control Panel. If you need to create LDAP user with one or two characters long use LDAP dynamic user creation with first login.
 
 
 2. Cronicle. Use this guide for adding Cronicle users: https://github.com/jhuckaby/Cronicle#users-tab. There are no default password - it is set manually while creating a user.
@@ -171,15 +171,18 @@ Libs are installed in JupyterLab web interface in console or terminal with `pip3
 * Currently LDAP is available in JupyterHub only. 
 * Python libs `jupyterhub-ldapauthenticator`, `jupyterhub-ldapcreateusers` are already included in Jupyter container.
 * Source of information for JupyterHub is here: https://github.com/jupyterhub/ldapauthenticator
-* Presumably minimum username length is three characters in Hub Control Panel. If you need to create LDAP user with one or two characters long, enable temporarily `c.LocalLDAPCreateUsers.create_system_users` in `/var/lib/docker/volumes/vixtract_jupyter-config/_data/jupyterhub_config.py`. Then just login with this short username, account will be created automatically. Also optionally add this short username in admin list in the same `jupyterhub_config.py` file (last lines).
+* Looks like Jupyter Hub Control Panel is very capricious to usernames. For example, it can't add username with two characters or with dot in name.
+* With LDAP enabled creating users in Hub Control is not supported. Use dynamic creating with first login.
 
 #### Configuration use case for JupyterHub.
-1. Create new user with admin rights in Hub Control Panel with the same username as in LDAP.
-2. Open `/var/lib/docker/volumes/vixtract_jupyter-config/_data/jupyterhub_config.py`.
-3. Go to the end of the file and uncomment all lines in LDAP section. Do not enable `create_system_users` unless you really need it.
-4. Change example LDAP settings according to the guide https://github.com/jupyterhub/ldapauthenticator.
-5. Restart Jupyter container `docker container restart vixtract_jupyter`
-6. Open JupyterHub web interface, enter your ldap username (from 1st step) and your ldap password. This account should have admin rights for JupyterHub, but no ability to install libs globally and fully delete users. For that use `su admin` in terminal firstly.
+1. Open `/var/lib/docker/volumes/vixtract_jupyter-config/_data/jupyterhub_config.py`.
+2. Go to the end of the file and uncomment all lines in LDAP section including `c.LocalLDAPCreateUsers.create_system_users = True`.
+3. Change example LDAP settings according to the guide https://github.com/jupyterhub/ldapauthenticator.
+4. Add JupyterHub admin users from LDAP. Example: `c.Authenticator.admin_users = {'ldap-admin1', 'ldap-admin2'}`.
+5. Save and close `jupyterhub_config.py`.
+6. Restart Jupyter container `docker container restart vixtract_jupyter`.
+7. Open JupyterHub web interface, enter your ldap username (example here is `ldap-admin1`) and your ldap password. This account should have admin rights for JupyterHub, but no ability to install libs globally and fully delete users. For that use `su admin` in terminal firstly.
+8. After entering any valid LDAP credentials, JupyterHub user (and internal system user) will be created automatically. 
 
 
 ***
@@ -195,7 +198,7 @@ Libs are installed in JupyterLab web interface in console or terminal with `pip3
    * `# HTTPS server optimization section`, 
    * `# Redirect HTTP to HTTPS section`, 
    * `# HTTPS section`.
-4. Comment line `listen 80;`.
+4. Comment out line `listen 80;`.
 5. *Optional*. If your private key is protected by password add additional line in `# HTTPS section`: `ssl_password_file   /mnt/volume/password.pass;` with your password inside.
 6. Check all your settings, cert names and make sure they are correct for your use case.
 7. Restart Nginx container with `docker container restart vixtract_nginx`.
