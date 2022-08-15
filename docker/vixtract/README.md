@@ -187,7 +187,7 @@ Libs are installed in JupyterLab web interface in console or terminal with `pip3
 
 ***
 
-## 7. Enabling HTTPS.
+## 7. Enabling HTTPS
 
 * Everything is set in Nginx config. PostgreSQL is out of this configuration scope.
 * The config example encompasses use case with valid Lets Encrypt certs.
