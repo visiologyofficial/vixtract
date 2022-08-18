@@ -30,7 +30,7 @@ Project web site: https://www.vixtract.ru
 Run the next command which will create vixtract folder, download yml file and start all Vixtract components.
    ```
    mkdir vixtract && cd vixtract/ && \
-   wget https://raw.githubusercontent.com/yusben/vixtract/master/docker/vixtract/docker-compose.yml && \
+   wget https://raw.githubusercontent.com/visiologyofficial/vixtract/master/docker/vixtract/docker-compose.yml && \
    docker-compose up -d
    ```
 All Docker images will be pulled from Docker Hub. Check with `docker-compose ps` that all containers are up and running and go to http://{server_address}:80 to open Vixtract web interface.
