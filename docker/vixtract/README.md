@@ -208,7 +208,7 @@ Libs are installed in JupyterLab web interface in console or terminal with `pip3
 
 ## 8. Current limitations and known issues
 
-* The main limitation in this build is JupyterHub implementation in a container. It does no use conda enviroments as on host installation. So, you are limited to one env for Python and one kernel for Jupyter notebooks. The better approach here is DockerSpawner with separate Docker container for every env: https://github.com/jupyterhub/jupyterhub-deploy-docker
+* The main limitation in this build is JupyterHub implementation in a container. It does not use conda enviroments as on host installation. So, you are limited to one env for Python and one kernel for Jupyter notebooks. The better approach here is DockerSpawner with separate Docker container for every env: https://github.com/jupyterhub/jupyterhub-deploy-docker
 
 * It is impossible to use LDAP and local user accounts in JupyterHub simultaneously.
 
@@ -219,7 +219,7 @@ Libs are installed in JupyterLab web interface in console or terminal with `pip3
 ## 9. Roadmap
 
 1. Proper JupyterHub deployment from this project https://github.com/jupyterhub/jupyterhub-deploy-docker
-2. Hiding PostgreqSQL behind Nginx.
-3. Switching to Oath for JupyterHub. Most likeky adding Keycloak for multi authentication mechanism support, easy and versatile confiiguring.
+2. Hiding PostgreSQL behind Nginx.
+3. Switching to Oath for JupyterHub. Most likeky adding Keycloak for multi authentication mechanism support, easy and versatile configuring.
 4. Adding LDAP/AD/OAuth support for Cronicle.
 5. K8s deployment.
