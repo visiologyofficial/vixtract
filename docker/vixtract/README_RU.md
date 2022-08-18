@@ -19,7 +19,7 @@ ViXtract – это сборка на основе популярных откр
 1. Выполните команду:
 ```
 mkdir vixtract && cd vixtract/ && \
-wget https://raw.githubusercontent.com/yusben/vixtract/master/docker/vixtract/docker-compose.yml && \
+wget https://raw.githubusercontent.com/visiologyofficial/vixtract/master/docker/vixtract/docker-compose.yml && \
 docker-compose up -d
 ```
 2. Должны запуститься четыре Docker контейнера. Сайт ViXtract доступен на порту 80 адреса сервера.
