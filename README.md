@@ -8,9 +8,11 @@ ViXtract – это сборка на основе популярных откр
 
 ## Установка
 
-Для установки ViXtract используйте команду ниже (рекомендуется использовать Ubuntu 18.04 LTS):
+Для установки ViXtract на Ubuntu 18.04 LTS используйте команду ниже:
 
 > sudo apt-get update && sudo apt-get install git -y && git clone https://github.com/visiologyofficial/vixtract && cd vixtract && sudo chmod +x *.sh && sudo ./install.sh
+
+Для установки на других ОС нужно вносить изменения в скрипт или производить установку вручную. Также есть форк с обновленными компонентами для установки на Debian 11 https://github.com/svnikolaev/vixtract
 
 Если планируется использовать ViXtract с публичным доменом и HTTPS, рекомендуется до установки ViXtract настроить домен на DNS-сервере. В этом случае при установке ViXtract можно будет сразу настроить получение SSL сертификата через Letsencypt. 
 
