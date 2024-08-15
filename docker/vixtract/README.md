@@ -7,8 +7,6 @@ Simple open source ETL tool based on Python with the next common pipeline:
 * Schedule these operations in **Cronicle**.
 * Take data from PostgreSQL into Visiology Analytics Platform or similar software for analysis.
 
-Project web site: https://www.vixtract.ru
-
 ## 1. About this build
 
 * It incorporates 4 components running in Docker containers: PostgreSQL, Jupyter, Cronicle, Nginx.
