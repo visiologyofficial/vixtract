@@ -1,18 +1,19 @@
-FROM ubuntu:22.04
+FROM node:22.10.0-alpine3.19
 
-# Update and Python install
-RUN apt-get update -y && apt-get install curl -y && apt-get install -y python3-pip && pip3 install --upgrade pip
-
-# Install NodeJS
-RUN apt-get install npm nodejs -y
-
-# Install Chronicle
-RUN curl -s https://raw.githubusercontent.com/jhuckaby/Cronicle/master/bin/install.js | node
+# Python install
+RUN apk add --no-cache python3=3.11.10-r0  py3-pip=23.3.1-r0 \
+        gcc=13.2.1_git20231014-r0 python3-dev=3.11.10-r0 \
+        musl-dev=1.2.4_git20230717-r4 linux-headers=6.5-r0 cmake=3.27.8-r0 \
+        build-base=0.5-r3 py3-pyarrow=14.0.1-r3 curl=8.9.1-r1
 
 # Add essential libs
-RUN pip3 install wheel ipywidgets papermill petl && \
-    pip3 install "dask[distributed,dataframe]" && \   
-    pip3 install dask_labextension
+COPY requirements.txt /requirements.txt
+
+RUN pip3 install --break-system-packages -r /requirements.txt
+
+# Install Chronicle
+SHELL ["/bin/ash", "-eo", "pipefail", "-c"]
+RUN curl -S https://raw.githubusercontent.com/jhuckaby/Cronicle/master/bin/install.js | node
 
 WORKDIR /opt/cronicle/bin
 

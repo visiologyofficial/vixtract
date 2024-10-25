@@ -1,4 +1,4 @@
-FROM nginx:1.21.6
+FROM nginx:1.27.2-alpine
 
 COPY ./html /var/www
 COPY ./nginx.conf /etc/nginx/
