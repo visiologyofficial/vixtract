@@ -2836,6 +2836,6 @@ c = get_config()  #noqa
 c.Spawner.default_url = '/lab'
 c.JupyterHub.bind_url = 'http://:8000/jupyter'
 c.Authenticator.admin_users = {'admin'}
-c.Authenticator.allow_all = False
+c.Authenticator.allow_all = True
 c.LocalAuthenticator.add_user_cmd = ['python3','/app/create-user.py','USERNAME']
 c.LocalAuthenticator.create_system_users = True
