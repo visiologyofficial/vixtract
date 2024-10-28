@@ -1,5 +1,4 @@
-#!/bin/bash
-
+#!/bin/sh
 FILE=/opt/cronicle/logs/cronicled.pid
 if [ -f "$FILE" ]; then
     rm /opt/cronicle/logs/cronicled.pid

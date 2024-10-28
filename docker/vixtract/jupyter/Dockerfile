@@ -1,28 +1,19 @@
-FROM ubuntu:22.04
+# docker build -t vixtract/jupyter:2.0 .
+
+FROM quay.io/jupyterhub/jupyterhub:5
 
 WORKDIR /app
 
-# Update and Python install
-RUN apt-get update -y && apt-get install -y python3-pip && pip3 install --upgrade pip
-
-# Install NodeJS and proxy
-RUN apt-get install npm nodejs -y && \
-    npm install -g configurable-http-proxy
-
-# Jupyter installation
-RUN pip3 install jupyterhub && \
-    pip3 install jupyterlab && \
-    pip3 install --upgrade notebook
-
 # Add essential libs
-RUN pip3 install jupyterhub-ldapauthenticator jupyterhub-ldapcreateusers pandas scipy matplotlib wheel ipywidgets papermill petl && \
-    pip3 install "dask[distributed,dataframe]" && \   
-    pip3 install dask_labextension
+COPY requirements.txt requirements.txt
+RUN pip3 install -r requirements.txt
 
 # Install sudo for admin operations from JupyterHub
-RUN apt-get -y install sudo nano
+RUN apt-get update -qq > /dev/null && apt-get -y install sudo=1.9.9-1ubuntu2.4 \
+            nano=6.2-1ubuntu0.1 --no-install-recommends
 
 # Add default admin user
+SHELL ["/bin/bash", "-eo", "pipefail", "-c"]
 RUN useradd admin && echo admin:vixtract | chpasswd
 RUN mkdir /home/admin && chown admin:admin /home/admin
 RUN usermod -a -G sudo admin
