@@ -1,3 +1,5 @@
+# docker build -t vixtract/jupyter:2.0 .
+
 FROM quay.io/jupyterhub/jupyterhub:5
 
 WORKDIR /app

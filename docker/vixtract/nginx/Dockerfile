@@ -1,3 +1,5 @@
+# docker build -t vixtract/nginx:2.0 .
+
 FROM nginx:1.27.2-alpine
 
 COPY ./html /var/www
