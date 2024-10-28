@@ -1,3 +1,5 @@
+# docker build -t vixtract/cronicle:2.0 .
+
 FROM node:22.10.0-alpine3.19
 
 # Python install
