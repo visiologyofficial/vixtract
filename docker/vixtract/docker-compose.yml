@@ -15,7 +15,7 @@ services:
      - postgresql:/var/lib/postgresql/data
 
   jupyter:
-    image: vixtract/jupyter:1.0
+    image: vixtract/jupyter:2.0
     container_name: vixtract_jupyter
     restart: always
     tty: true
@@ -27,7 +27,7 @@ services:
      - jupyter-etc:/etc
 
   cronicle:
-    image: vixtract/cronicle:1.0
+    image: vixtract/cronicle:2.0
     container_name: vixtract_cronicle
     hostname: vixtract_primary-cronicle-server # lock container hostname for Cronicle server connect
     restart: always
@@ -40,7 +40,7 @@ services:
       - jupyter-libs:/usr/local/lib/python3.10/dist-packages:ro
 
   nginx:
-    image: vixtract/nginx:1.0
+    image: vixtract/nginx:2.0
     container_name: vixtract_nginx
     restart: always
     depends_on:
